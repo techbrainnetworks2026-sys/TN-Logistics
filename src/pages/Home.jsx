@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home({ scrollToSection, products, setSelectedProduct }) {
+function Home({ scrollToSection, products, onSelectProduct }) {
   return (
     <>
       <section id="home" className="hero">
@@ -38,7 +38,7 @@ function Home({ scrollToSection, products, setSelectedProduct }) {
         <h2>Our Products</h2>
         <div className="product-grid">
           {products.map((product, index) => (
-            <div key={index} className="product-card" onClick={() => setSelectedProduct(product)}>
+            <div key={index} className="product-card" onClick={() => onSelectProduct(product.id)}>
               <img src={product.image} alt={product.alt} />
               <h3>{product.name}</h3>
               <p>{product.details.substring(0, 100)}...</p>
