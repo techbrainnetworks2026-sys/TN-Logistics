@@ -1,322 +1,3102 @@
 export const products = [
   {
-    id: 1,
-    name: "Supply Chain Visibility and Optimization Software",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop",
-    alt: "Supply chain dashboard with real-time tracking",
-    details: "Real-time tracking and analytics to streamline global logistics and reduce operational bottlenecks.",
-    about: "Our flagship Supply Chain Visibility and Optimization Software is a comprehensive command center for modern logistics. It provides end-to-end transparency across the entire value chain, from raw material procurement to final delivery. By aggregating data from multiple sources into a single 'source of truth', it empowers decision-makers with actionable insights to reduce costs and improve service levels.",
-    futureScope: "Over the next 20 years, this platform will evolve into an autonomous 'Self-Healing' supply chain. Using quantum computing and advanced neural networks, it will not just identify bottlenecks but pre-emptively resolve them before they manifest, managing global disruptions with zero human intervention.",
-    benefits: [
+    id:  1,
+    name:  "Supply Chain Visibility and Optimization Software",
+    image:  "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Supply chain dashboard with real-time tracking",
+    details:  "Supply Chain Visibility Software (SCV) is a digital platform that provides real-time, end-to-end tracking and insights across the entire supply chain — from suppliers to customers. When combined with optimization, it not only shows what's happening but also recommends actions (AI/ML-based) to improve cost, efficiency, and service levels.",
+    about:  "Our flagship Supply Chain Visibility and Optimization Software is a comprehensive command center for modern logistics. It provides end-to-end transparency across the entire value chain, from raw material procurement to final delivery. By aggregating data from multiple sources into a single 'source of truth', it empowers decision-makers with actionable insights to reduce costs and improve service levels. It integrates data from ERP, WMS, TMS, IoT devices, and external sources to enable data-driven decisions. Visibility means seeing everything; Optimization means improving everything.",
+    futureScope:  "Over the next 20 years, this platform will evolve into an autonomous 'Self-Healing' supply chain. Using quantum computing and advanced neural networks, it will not just identify bottlenecks but pre-emptively resolve them before they manifest, managing global disruptions with zero human intervention.",
+    benefits:  [
       "30% reduction in lead times through optimized route planning.",
       "Real-time global inventory tracking with 99.9% accuracy.",
       "Predictive bottleneck identification and automated rerouting.",
       "Seamless integration with IoT sensors and blockchain ledgers."
     ],
-    integrationNote: "As our foundational platform, it serves as the central nervous system for all other Techbrain solutions."
+    integrationNote:  "As our foundational platform, it serves as the central nervous system for all other Techbrain solutions.",
+    keyFeatures:  [
+      {
+        category:  "📊 Data Integration & Management",
+        items:  [
+          "Integrates ERP, WMS, TMS, CRM systems",
+          "Supports IoT, RFID, GPS data ingestion",
+          "Data cleansing, transformation, enrichment"
+        ]
+      },
+      {
+        category:  "🚚 Real-Time Tracking",
+        items:  [
+          "Shipment tracking across modes (air, sea, road)",
+          "Inventory visibility across warehouses",
+          "Order lifecycle tracking (procurement → delivery)"
+        ]
+      },
+      {
+        category:  "🔔 Alerts & Event Management",
+        items:  [
+          "Delay notifications",
+          "Stock-out / overstock alerts",
+          "Risk alerts (weather, route disruption)"
+        ]
+      },
+      {
+        category:  "📈 Analytics & AI",
+        items:  [
+          "Predictive ETA",
+          "Demand forecasting",
+          "Root cause analysis",
+          "Prescriptive recommendations (rerouting, reallocation)"
+        ]
+      },
+      {
+        category:  "📊 Dashboards & Reporting",
+        items:  [
+          "KPI dashboards (OTIF, inventory turnover, dwell time)",
+          "Role-based analytics",
+          "Drill-down insights"
+        ]
+      },
+      {
+        category:  "🔐 Security & Compliance",
+        items:  [
+          "Role-based access",
+          "Data encryption",
+          "Regulatory compliance"
+        ]
+      },
+      {
+        category:  "🔄 Optimization Capabilities",
+        items:  [
+          "Route optimization",
+          "Inventory optimization",
+          "Supplier selection optimization",
+          "Dynamic order rerouting"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational Benefits",
+        items:  [
+          "Improved efficiency & automation",
+          "Reduced delays and bottlenecks",
+          "Better inventory planning"
+        ]
+      },
+      {
+        category:  "💰 Financial Benefits",
+        items:  [
+          "Reduced logistics and inventory costs (5–10%)",
+          "Lower freight spend"
+        ]
+      },
+      {
+        category:  "📊 Decision-Making",
+        items:  [
+          "Data-driven insights",
+          "Faster response to disruptions"
+        ]
+      },
+      {
+        category:  "📦 Customer Experience",
+        items:  [
+          "Accurate delivery ETAs",
+          "Real-time order visibility"
+        ]
+      },
+      {
+        category:  "🛡️ Risk Management",
+        items:  [
+          "Early detection of disruptions",
+          "Improved resilience to supply shocks"
+        ]
+      },
+      {
+        category:  "🌱 Strategic Benefits",
+        items:  [
+          "Sustainability tracking (emissions)",
+          "Supplier performance visibility"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional Scope",
+        items:  [
+          "Procurement visibility",
+          "Manufacturing tracking",
+          "Warehouse management",
+          "Transportation monitoring",
+          "Last-mile delivery tracking"
+        ]
+      },
+      {
+        category:  "📌 Technical Scope",
+        items:  [
+          "Cloud-based platforms",
+          "Integration with enterprise systems",
+          "AI/ML-driven analytics",
+          "IoT-enabled tracking"
+        ]
+      },
+      {
+        category:  "📌 Business Scope",
+        items:  [
+          "Multi-enterprise collaboration",
+          "Global supply chain networks",
+          "Compliance & sustainability"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Track raw materials from suppliers",
+          "Optimize production schedules"
+        ]
+      },
+      {
+        industry:  "🛒 Retail / E-commerce",
+        scenarios:  [
+          "Real-time order tracking",
+          "Inventory optimization across stores"
+        ]
+      },
+      {
+        industry:  "🚛 Logistics & Transportation",
+        scenarios:  [
+          "Fleet tracking",
+          "Route optimization",
+          "Carrier performance analysis"
+        ]
+      },
+      {
+        industry:  "🏥 Healthcare",
+        scenarios:  [
+          "Track sensitive shipments (temperature-controlled drugs)",
+          "Ensure timely delivery of critical supplies"
+        ]
+      },
+      {
+        industry:  "🌍 Global Trade",
+        scenarios:  [
+          "Multi-country shipment visibility",
+          "Customs and compliance tracking"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Sources Layer",
+        description:  "ERP, IoT, external APIs"
+      },
+      {
+        layer:  "Integration Layer",
+        description:  "APIs, ETL pipelines"
+      },
+      {
+        layer:  "Data Storage Layer",
+        description:  "Data lake / warehouse"
+      },
+      {
+        layer:  "Analytics Layer",
+        description:  "AI/ML models"
+      },
+      {
+        layer:  "Application Layer",
+        description:  "UI dashboards, alerts, reporting"
+      },
+      {
+        layer:  "User Layer",
+        description:  "Suppliers, managers, decision-makers"
+      }
+    ]
   },
   {
-    id: 2,
-    name: "Last-Mile Delivery Routing Algorithms",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbUyU-Nb4bPCU6SdpxxOMLWrhWbHui531IEw&s",
-    alt: "Delivery van in city visualization",
-    details: "Advanced AI-powered routing to ensure fastest delivery times and minimal fuel consumption for local fulfillment.",
-    about: "This solution specializes in the most complex leg of the logistics journey: the last mile. Our algorithms process millions of data points—including real-time traffic, weather, and delivery windows—to calculate the most efficient path for every vehicle. It bridges the gap between urban distribution centers and the customer's doorstep.",
-    futureScope: "In 20 years, last-mile delivery will be dominated by swarms of autonomous drones and sidewalk robots. Our algorithms will orchestrate these swarms in real-time, creating a silent, invisible delivery network that operates 24/7 with zero carbon footprint.",
-    benefits: [
+    id:  2,
+    name:  "Last-Mile Delivery Routing Algorithms",
+    image:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbUyU-Nb4bPCU6SdpxxOMLWrhWbHui531IEw&s",
+    alt:  "Delivery van in city visualization",
+    details:  "Advanced AI-powered routing to ensure fastest delivery times and minimal fuel consumption for local fulfillment.",
+    about:  "This solution specializes in the most complex leg of the logistics journey: the last mile. Our algorithms process millions of data points—including real-time traffic, weather, and delivery windows—to calculate the most efficient path for every vehicle. It bridges the gap between urban distribution centers and the customer's doorstep.",
+    futureScope:  "In 20 years, last-mile delivery will be dominated by swarms of autonomous drones and sidewalk robots. Our algorithms will orchestrate these swarms in real-time, creating a silent, invisible delivery network that operates 24/7 with zero carbon footprint.",
+    benefits:  [
       "25% reduction in fuel consumption and carbon emissions.",
       "Enhanced customer satisfaction with precise ETA windows.",
       "Dynamic re-routing capabilities for unexpected traffic events.",
       "Optimized parcel loading sequences for faster unloading."
     ],
-    integrationNote: "Integrates directly with our Supply Chain Visibility and Optimization Software to ensure the final leg matches global supply signals."
+    integrationNote:  "Integrates directly with our Supply Chain Visibility and Optimization Software to ensure the final leg matches global supply signals.",
+    keyFeatures:  [
+      {
+        category:  "🗺️ Dynamic Route Planning",
+        items:  [
+          "Real-time traffic integration",
+          "Weather-aware routing",
+          "Multi-stop optimization"
+        ]
+      },
+      {
+        category:  "📦 Delivery Management",
+        items:  [
+          "Time-window scheduling",
+          "Proof-of-delivery capture",
+          "Customer notification engine"
+        ]
+      },
+      {
+        category:  "📊 Performance Analytics",
+        items:  [
+          "Driver scorecards",
+          "Route efficiency metrics",
+          "Cost-per-delivery analysis"
+        ]
+      },
+      {
+        category:  "🔄 Adaptive Algorithms",
+        items:  [
+          "Machine learning route improvement",
+          "Demand pattern recognition",
+          "Seasonal adjustment modeling"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "25% fewer miles driven per delivery",
+          "Dynamic re-routing in under 2 seconds"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced fuel costs by up to 25%",
+          "Lower vehicle maintenance expenses"
+        ]
+      },
+      {
+        category:  "📦 Customer Experience",
+        items:  [
+          "Precise 30-minute ETA windows",
+          "Real-time delivery tracking for end customers"
+        ]
+      },
+      {
+        category:  "🌱 Sustainability",
+        items:  [
+          "Significant reduction in carbon emissions",
+          "Support for EV fleet range optimization"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional Scope",
+        items:  [
+          "Route calculation & optimization",
+          "Driver dispatch management",
+          "Delivery scheduling"
+        ]
+      },
+      {
+        category:  "📌 Technical Scope",
+        items:  [
+          "Cloud-based SaaS platform",
+          "GPS & telematics integration",
+          "Mobile driver app"
+        ]
+      },
+      {
+        category:  "📌 Business Scope",
+        items:  [
+          "E-commerce fulfillment",
+          "Food & grocery delivery",
+          "Parcel & courier services"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 E-commerce",
+        scenarios:  [
+          "Same-day delivery optimization",
+          "Multi-drop parcel routing"
+        ]
+      },
+      {
+        industry:  "🍔 Food Delivery",
+        scenarios:  [
+          "Hot-food time-sensitive routing",
+          "Multi-restaurant batch pickups"
+        ]
+      },
+      {
+        industry:  "🏥 Healthcare",
+        scenarios:  [
+          "Urgent medication delivery",
+          "Medical sample transport routing"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Ingestion",
+        description:  "GPS, traffic APIs, weather feeds"
+      },
+      {
+        layer:  "Optimization Engine",
+        description:  "AI/ML routing algorithms"
+      },
+      {
+        layer:  "Dispatch Module",
+        description:  "Driver assignment & scheduling"
+      },
+      {
+        layer:  "Mobile App Layer",
+        description:  "Driver navigation & POD"
+      },
+      {
+        layer:  "Analytics Dashboard",
+        description:  "KPIs, cost tracking, reporting"
+      }
+    ]
   },
   {
-    id: 3,
-    name: "Warehouse Management Systems (WMS)",
-    image: "https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Automated warehouse with robots",
-    details: "Intelligent inventory tracking, automated picking, and optimized storage solutions for modern distribution centers.",
-    about: "Our WMS is designed for the high-velocity demands of e-commerce and retail. It automates inventory placement (slotting), picking paths, and labor allocation to maximize throughput and minimize errors. It transforms static warehouses into dynamic, high-performance distribution hubs.",
-    futureScope: "The next two decades will see the rise of 'Dark Warehouses'—fully automated facilities that operate without lights or human presence. Our WMS will evolve into the operating system for these robotic environments, self-optimizing storage density based on predictive demand patterns.",
-    benefits: [
+    id:  3,
+    name:  "Warehouse Management Systems (WMS)",
+    image:  "https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    alt:  "Automated warehouse with robots",
+    details:  "Intelligent inventory tracking, automated picking, and optimized storage solutions for modern distribution centers.",
+    about:  "Our WMS is designed for the high-velocity demands of e-commerce and retail. It automates inventory placement (slotting), picking paths, and labor allocation to maximize throughput and minimize errors. It transforms static warehouses into dynamic, high-performance distribution hubs.",
+    futureScope:  "The next two decades will see the rise of 'Dark Warehouses'—fully automated facilities that operate without lights or human presence. Our WMS will evolve into the operating system for these robotic environments, self-optimizing storage density based on predictive demand patterns.",
+    benefits:  [
       "40% increase in storage space utilization through AI-driven slotting.",
       "Dramatic reduction in picking errors using computer vision integration.",
       "Real-time labor management and performance analytics.",
       "Seamless integration with automated storage and retrieval systems (AS/RS)."
     ],
-    integrationNote: "Feeds granular inventory data into the Supply Chain Visibility and Optimization Software for total stock transparency."
+    integrationNote:  "Feeds granular inventory data into the Supply Chain Visibility and Optimization Software for total stock transparency.",
+    keyFeatures:  [
+      {
+        category:  "📦 Inventory Management",
+        items:  [
+          "Real-time stock tracking",
+          "Cycle counting automation",
+          "Lot & serial number tracking"
+        ]
+      },
+      {
+        category:  "🤖 Automated Operations",
+        items:  [
+          "AI-driven slotting optimization",
+          "Pick path optimization",
+          "Wave & batch picking"
+        ]
+      },
+      {
+        category:  "👷 Labor Management",
+        items:  [
+          "Task assignment engine",
+          "Workforce performance tracking",
+          "Shift planning & scheduling"
+        ]
+      },
+      {
+        category:  "🔗 Integration Hub",
+        items:  [
+          "ERP/TMS connectivity",
+          "AS/RS system control",
+          "Conveyor & sorter integration"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "40% increase in storage utilization",
+          "99.9% picking accuracy"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced labor costs through automation",
+          "Lower inventory carrying costs"
+        ]
+      },
+      {
+        category:  "📊 Visibility",
+        items:  [
+          "Real-time inventory dashboards",
+          "Cross-warehouse stock visibility"
+        ]
+      },
+      {
+        category:  "🔄 Scalability",
+        items:  [
+          "Supports multi-warehouse operations",
+          "Seasonal volume surge handling"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Receiving & putaway",
+          "Picking & packing",
+          "Shipping & manifesting",
+          "Returns processing"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud-native architecture",
+          "Barcode & RFID support",
+          "Mobile RF terminals"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "E-commerce fulfillment",
+          "3PL operations",
+          "Manufacturing warehouses"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Omnichannel fulfillment",
+          "Store replenishment"
+        ]
+      },
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Raw material staging",
+          "Finished goods management"
+        ]
+      },
+      {
+        industry:  "💊 Pharma",
+        scenarios:  [
+          "Serialization tracking",
+          "Cold storage management"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Capture",
+        description:  "Barcode scanners, RFID, IoT sensors"
+      },
+      {
+        layer:  "Core WMS Engine",
+        description:  "Inventory, orders, task management"
+      },
+      {
+        layer:  "Optimization Layer",
+        description:  "AI slotting, pick path algorithms"
+      },
+      {
+        layer:  "Integration Middleware",
+        description:  "ERP, TMS, e-commerce connectors"
+      },
+      {
+        layer:  "User Interface",
+        description:  "Web dashboards, mobile RF apps"
+      }
+    ]
   },
   {
-    id: 4,
-    name: "Transportation Management Systems (TMS)",
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1600&auto=format&fit=crop",
-    alt: "Fleet of trucks on highway",
-    details: "Comprehensive platform for managing freight, carrier selection, and automated documentation.",
-    about: "Our TMS streamlines the movement of goods across road, rail, air, and sea. It automates carrier selection based on cost and performance, manages digital freight documentation, and provides continuous shipment tracking. It is the essential tool for shippers and 3PLs to manage their transportation spend.",
-    futureScope: "By 2045, our TMS will manage mixed fleets of autonomous electric trucks and hyperloop freight systems. It will serve as a multi-modal orchestrator, automatically switching modes based on real-time energy prices and environmental impact mandates.",
-    benefits: [
+    id:  4,
+    name:  "Transportation Management Systems (TMS)",
+    image:  "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Fleet of trucks on highway",
+    details:  "Comprehensive platform for managing freight, carrier selection, and automated documentation.",
+    about:  "Our TMS streamlines the movement of goods across road, rail, air, and sea. It automates carrier selection based on cost and performance, manages digital freight documentation, and provides continuous shipment tracking. It is the essential tool for shippers and 3PLs to manage their transportation spend.",
+    futureScope:  "By 2045, our TMS will manage mixed fleets of autonomous electric trucks and hyperloop freight systems. It will serve as a multi-modal orchestrator, automatically switching modes based on real-time energy prices and environmental impact mandates.",
+    benefits:  [
       "Average of 15% savings on annual freight spend.",
       "Automated audit and payment processes to eliminate financial discrepancies.",
       "Consolidated multi-modal view for complex international shipments.",
       "Improved carrier relationship management through performance scoring."
     ],
-    integrationNote: "Powered by the Supply Chain Visibility and Optimization Software to provide real-time transit visibility to all stakeholders."
+    integrationNote:  "Powered by the Supply Chain Visibility and Optimization Software to provide real-time transit visibility to all stakeholders.",
+    keyFeatures:  [
+      {
+        category:  "🚛 Freight Management",
+        items:  [
+          "Multi-modal shipment planning",
+          "Carrier rate management",
+          "Load consolidation"
+        ]
+      },
+      {
+        category:  "📋 Documentation",
+        items:  [
+          "Automated BOL generation",
+          "Customs paperwork",
+          "Digital freight audit"
+        ]
+      },
+      {
+        category:  "📍 Shipment Tracking",
+        items:  [
+          "Real-time GPS visibility",
+          "Milestone event tracking",
+          "Exception management"
+        ]
+      },
+      {
+        category:  "💲 Financial Controls",
+        items:  [
+          "Freight cost allocation",
+          "Invoice matching & audit",
+          "Carrier payment automation"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Automated carrier selection",
+          "Paperless documentation workflows"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "15% average freight spend reduction",
+          "Elimination of billing errors"
+        ]
+      },
+      {
+        category:  "📊 Decision-Making",
+        items:  [
+          "Carrier performance scorecards",
+          "Lane cost benchmarking"
+        ]
+      },
+      {
+        category:  "🤝 Collaboration",
+        items:  [
+          "Carrier portal for self-service",
+          "Shipper-carrier communication hub"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Order management",
+          "Route planning",
+          "Carrier selection",
+          "Freight audit & payment"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud-based platform",
+          "EDI & API integrations",
+          "Mobile tracking apps"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Shippers & manufacturers",
+          "3PL providers",
+          "Freight forwarders"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Inbound raw material scheduling",
+          "Outbound finished goods shipping"
+        ]
+      },
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Store delivery optimization",
+          "Cross-dock management"
+        ]
+      },
+      {
+        industry:  "🌍 International Trade",
+        scenarios:  [
+          "Multi-modal ocean-rail-truck planning",
+          "Cross-border shipment coordination"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Order Management",
+        description:  "Shipment orders, customer requirements"
+      },
+      {
+        layer:  "Planning Engine",
+        description:  "Route optimization, load building"
+      },
+      {
+        layer:  "Execution Layer",
+        description:  "Carrier tendering, dispatch, tracking"
+      },
+      {
+        layer:  "Settlement Module",
+        description:  "Freight audit, payment, analytics"
+      },
+      {
+        layer:  "Visibility Portal",
+        description:  "Dashboards, alerts, reporting"
+      }
+    ]
   },
   {
-    id: 5,
-    name: "Freight Brokerage and Digital Freight Platforms",
-    image: "https://images.unsplash.com/photo-1454165205744-3b78555e5572?q=80&w=1600&auto=format&fit=crop",
-    alt: "Digital freight booking interface",
-    details: "Marketplace connecting shippers with reliable carriers using transparent pricing and automated matching.",
-    about: "We are digitizing the middleman. Our freight brokerage platform uses AI to match loads with available capacity instantly. It eliminates manual phone calls and emails, providing a transparent, 'one-click' experience for booking freight with vetted, high-quality carriers.",
-    futureScope: "The future of freight brokerage is a peer-to-peer decentralized network. Our platform will transition into a blockchain-governed marketplace where smart contracts handle booking, insurance, and payment without any manual intervention.",
-    benefits: [
+    id:  5,
+    name:  "Freight Brokerage and Digital Freight Platforms",
+    image:  "https://images.unsplash.com/photo-1454165205744-3b78555e5572?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Digital freight booking interface",
+    details:  "Marketplace connecting shippers with reliable carriers using transparent pricing and automated matching.",
+    about:  "We are digitizing the middleman. Our freight brokerage platform uses AI to match loads with available capacity instantly. It eliminates manual phone calls and emails, providing a transparent, 'one-click' experience for booking freight with vetted, high-quality carriers.",
+    futureScope:  "The future of freight brokerage is a peer-to-peer decentralized network. Our platform will transition into a blockchain-governed marketplace where smart contracts handle booking, insurance, and payment without any manual intervention.",
+    benefits:  [
       "Instant load matching, reducing 'deadhead' miles for carriers.",
       "Dynamic pricing models based on real-time market capacity.",
       "Automated carrier vetting and compliance monitoring.",
       "Digital proof-of-delivery and instant payment processing."
     ],
-    integrationNote: "Uses Supply Chain Visibility and Optimization Software data to predict capacity shortages and adjust pricing."
+    integrationNote:  "Uses Supply Chain Visibility and Optimization Software data to predict capacity shortages and adjust pricing.",
+    keyFeatures:  [
+      {
+        category:  "🔄 Load Matching",
+        items:  [
+          "AI-powered load-to-truck matching",
+          "Capacity prediction engine",
+          "Deadhead mile reduction"
+        ]
+      },
+      {
+        category:  "💲 Dynamic Pricing",
+        items:  [
+          "Real-time spot rate calculation",
+          "Market demand-based pricing",
+          "Contract vs. spot comparison"
+        ]
+      },
+      {
+        category:  "✅ Carrier Vetting",
+        items:  [
+          "Automated compliance checks",
+          "Safety rating verification",
+          "Insurance validation"
+        ]
+      },
+      {
+        category:  "📱 Digital Experience",
+        items:  [
+          "One-click booking",
+          "Digital proof-of-delivery",
+          "Instant payment processing"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Instant load matching vs. hours of phone calls",
+          "Automated documentation"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Transparent pricing with no hidden fees",
+          "Reduced deadhead miles save carrier costs"
+        ]
+      },
+      {
+        category:  "🔒 Trust & Compliance",
+        items:  [
+          "Pre-vetted carrier network",
+          "Real-time compliance monitoring"
+        ]
+      },
+      {
+        category:  "📊 Intelligence",
+        items:  [
+          "Market rate benchmarking",
+          "Demand forecasting for capacity planning"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Load posting & matching",
+          "Rate negotiation",
+          "Shipment booking",
+          "POD & payment"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud marketplace platform",
+          "Mobile apps for shippers & carriers",
+          "API-based integrations"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Small-to-mid shippers",
+          "Owner-operators",
+          "Fleet carriers"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🚛 Truckload",
+        scenarios:  [
+          "FTL spot market booking",
+          "Dedicated lane procurement"
+        ]
+      },
+      {
+        industry:  "📦 LTL",
+        scenarios:  [
+          "Partial load consolidation",
+          "Multi-carrier rate shopping"
+        ]
+      },
+      {
+        industry:  "🏗️ Construction",
+        scenarios:  [
+          "Heavy equipment transport",
+          "Job-site material delivery"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Marketplace Platform",
+        description:  "Load board, carrier directory"
+      },
+      {
+        layer:  "Matching Engine",
+        description:  "AI load-carrier optimization"
+      },
+      {
+        layer:  "Pricing Module",
+        description:  "Dynamic rate calculation"
+      },
+      {
+        layer:  "Execution Layer",
+        description:  "Booking, tracking, POD"
+      },
+      {
+        layer:  "Settlement",
+        description:  "Invoice, payment, factoring"
+      }
+    ]
   },
   {
-    id: 6,
-    name: "Inventory Forecasting and Demand Planning Software",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
-    alt: "Predictive analytics chart",
-    details: "Predictive modeling using AI to ensure optimal stock levels and prevent overstocking or stockouts.",
-    about: "Stop guessing what your customers will buy. Our demand planning software uses machine learning to analyze historical sales, seasonal trends, and external factors like weather or social media signals. It tells you exactly how much stock you need and where you need it.",
-    futureScope: "In 20 years, forecasting will move from 'predictive' to 'prescriptive'. The software will automatically trigger manufacturing and procurement cycles based on global consumer sentiment analysis, achieving a 'zero-inventory' target for many industries.",
-    benefits: [
+    id:  6,
+    name:  "Inventory Forecasting and Demand Planning Software",
+    image:  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Predictive analytics chart",
+    details:  "Predictive modeling using AI to ensure optimal stock levels and prevent overstocking or stockouts.",
+    about:  "Stop guessing what your customers will buy. Our demand planning software uses machine learning to analyze historical sales, seasonal trends, and external factors like weather or social media signals. It tells you exactly how much stock you need and where you need it.",
+    futureScope:  "In 20 years, forecasting will move from 'predictive' to 'prescriptive'. The software will automatically trigger manufacturing and procurement cycles based on global consumer sentiment analysis, achieving a 'zero-inventory' target for many industries.",
+    benefits:  [
       "20% reduction in capital tied up in excess inventory.",
       "Significant decrease in stockouts and lost sales opportunities.",
       "Automated replenishment triggers tailored to localized demand.",
       "Advanced 'What-If' scenario modeling for market expansion."
     ],
-    integrationNote: "Provides the predictive engine that drives the Supply Chain Visibility and Optimization Software's planning layer."
+    integrationNote:  "Provides the predictive engine that drives the Supply Chain Visibility and Optimization Software's planning layer.",
+    keyFeatures:  [
+      {
+        category:  "📈 Demand Forecasting",
+        items:  [
+          "ML-based demand prediction",
+          "Seasonal trend analysis",
+          "Promotional impact modeling"
+        ]
+      },
+      {
+        category:  "📊 Inventory Optimization",
+        items:  [
+          "Safety stock calculation",
+          "Reorder point automation",
+          "ABC/XYZ classification"
+        ]
+      },
+      {
+        category:  "🔮 Scenario Planning",
+        items:  [
+          "What-if simulation engine",
+          "Market expansion modeling",
+          "New product launch planning"
+        ]
+      },
+      {
+        category:  "🔗 Data Integration",
+        items:  [
+          "POS data ingestion",
+          "Social media signal analysis",
+          "Weather impact correlation"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Automated replenishment triggers",
+          "Reduced manual planning effort"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "20% reduction in excess inventory",
+          "Fewer stockout-related lost sales"
+        ]
+      },
+      {
+        category:  "📊 Accuracy",
+        items:  [
+          "95%+ forecast accuracy for top SKUs",
+          "Demand sensing for short-term adjustments"
+        ]
+      },
+      {
+        category:  "🌱 Strategic",
+        items:  [
+          "Data-driven product lifecycle decisions",
+          "Market expansion readiness assessment"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Statistical forecasting",
+          "Collaborative planning",
+          "Inventory policy optimization"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud ML platform",
+          "ERP & POS integration",
+          "Real-time data pipelines"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Retail & CPG",
+          "Manufacturing",
+          "Distribution & wholesale"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Seasonal demand planning",
+          "Store-level allocation"
+        ]
+      },
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Production scheduling alignment",
+          "Raw material procurement planning"
+        ]
+      },
+      {
+        industry:  "🍔 Food & Beverage",
+        scenarios:  [
+          "Perishable inventory optimization",
+          "Promotional uplift forecasting"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Lake",
+        description:  "Sales, POS, weather, social data"
+      },
+      {
+        layer:  "ML Forecasting Engine",
+        description:  "Statistical & deep learning models"
+      },
+      {
+        layer:  "Optimization Module",
+        description:  "Inventory policies & safety stock"
+      },
+      {
+        layer:  "Planning Workbench",
+        description:  "Collaborative review & override"
+      },
+      {
+        layer:  "Integration Layer",
+        description:  "ERP, WMS, procurement systems"
+      }
+    ]
   },
   {
-    id: 7,
-    name: "Cold Chain Monitoring and Management Systems",
-    image: "https://images.unsplash.com/photo-1582719202047-76d3432ee323?q=80&w=1600&auto=format&fit=crop",
-    alt: "Temperature sensitive cargo monitoring",
-    details: "IoT-enabled temperature and humidity tracking for sensitive pharmaceuticals and perishable goods.",
-    about: "Our cold chain solution is mission-critical for the food and pharmaceutical industries. Using a network of IoT sensors, we provide continuous monitoring of temperature, humidity, and shock. If a deviation occurs, automated alerts allow for immediate intervention to save life-saving medicines or prevent food waste.",
-    futureScope: "Future cold chains will be 'active' and 'adaptive'. Sustainable, self-cooling packaging controlled by our software will maintain precise conditions without relying on refrigerated trucks, revolutionizing delivery to remote areas.",
-    benefits: [
+    id:  7,
+    name:  "Cold Chain Monitoring and Management Systems",
+    image:  "https://images.unsplash.com/photo-1582719202047-76d3432ee323?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Temperature sensitive cargo monitoring",
+    details:  "IoT-enabled temperature and humidity tracking for sensitive pharmaceuticals and perishable goods.",
+    about:  "Our cold chain solution is mission-critical for the food and pharmaceutical industries. Using a network of IoT sensors, we provide continuous monitoring of temperature, humidity, and shock. If a deviation occurs, automated alerts allow for immediate intervention to save life-saving medicines or prevent food waste.",
+    futureScope:  "Future cold chains will be 'active' and 'adaptive'. Sustainable, self-cooling packaging controlled by our software will maintain precise conditions without relying on refrigerated trucks, revolutionizing delivery to remote areas.",
+    benefits:  [
       "Total compliance with FDA and international pharma regulations.",
       "Real-time alerts that prevent costly spoilage and waste.",
       "Automated digital audit trails for every individual shipment.",
       "End-to-end visibility for the most sensitive cargo on earth."
     ],
-    integrationNote: "Integrated with Supply Chain Visibility and Optimization Software to provide granular condition monitoring within the global view."
+    integrationNote:  "Integrated with Supply Chain Visibility and Optimization Software to provide granular condition monitoring within the global view.",
+    keyFeatures:  [
+      {
+        category:  "🌡️ Temperature Monitoring",
+        items:  [
+          "Continuous IoT sensor tracking",
+          "Multi-zone temperature logging",
+          "Excursion detection & alerts"
+        ]
+      },
+      {
+        category:  "💧 Environmental Controls",
+        items:  [
+          "Humidity monitoring",
+          "Shock & vibration detection",
+          "Light exposure tracking"
+        ]
+      },
+      {
+        category:  "📋 Compliance & Audit",
+        items:  [
+          "FDA 21 CFR Part 11 compliance",
+          "Automated audit trail generation",
+          "Digital certificate of analysis"
+        ]
+      },
+      {
+        category:  "🔔 Alert System",
+        items:  [
+          "Real-time SMS/email alerts",
+          "Escalation workflows",
+          "Predictive failure warnings"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Zero manual temperature logging",
+          "Automated compliance documentation"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced spoilage and waste costs",
+          "Lower insurance premiums through data"
+        ]
+      },
+      {
+        category:  "🛡️ Risk Mitigation",
+        items:  [
+          "Early excursion intervention",
+          "Complete chain-of-custody visibility"
+        ]
+      },
+      {
+        category:  "📋 Regulatory",
+        items:  [
+          "Full FDA/EU GMP compliance",
+          "Audit-ready digital records"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Sensor deployment",
+          "Data collection & logging",
+          "Alert management",
+          "Compliance reporting"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "IoT sensor network",
+          "Cloud data platform",
+          "Mobile monitoring app"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Pharmaceuticals",
+          "Fresh food logistics",
+          "Biotech & life sciences"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "💊 Pharmaceuticals",
+        scenarios:  [
+          "Vaccine cold chain management",
+          "Clinical trial shipment monitoring"
+        ]
+      },
+      {
+        industry:  "🥩 Food & Beverage",
+        scenarios:  [
+          "Farm-to-fork temperature tracking",
+          "Frozen goods logistics"
+        ]
+      },
+      {
+        industry:  "🧬 Biotech",
+        scenarios:  [
+          "Cell & gene therapy transport",
+          "Lab sample cold chain"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "IoT Sensors",
+        description:  "Temperature, humidity, GPS loggers"
+      },
+      {
+        layer:  "Gateway Layer",
+        description:  "Data aggregation & transmission"
+      },
+      {
+        layer:  "Cloud Platform",
+        description:  "Storage, processing, analytics"
+      },
+      {
+        layer:  "Alert Engine",
+        description:  "Threshold monitoring & notifications"
+      },
+      {
+        layer:  "Compliance Dashboard",
+        description:  "Audit reports, certificates"
+      }
+    ]
   },
   {
-    id: 8,
-    name: "Route Optimization and Fleet Management Software",
-    image: "data:image/jpeg;base64,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",
-    alt: "GPS tracking visualization",
-    details: "Telematics and GPS integration for real-time fleet monitoring and driver performance analytics.",
-    about: "Take control of your assets on the road. Our fleet management system combines telematics with advanced route optimization to reduce mileage, monitor driver safety, and maintain vehicle health. It’s about keeping your fleet moving safely and efficiently.",
-    futureScope: "By 2045, fleet management will focus on 'Asset Orchestration'. Our software will manage fleets that move themselves, optimizing energy charging cycles and maintenance schedules autonomously across global networks.",
-    benefits: [
+    id:  8,
+    name:  "Route Optimization and Fleet Management Software",
+    image:  "data:image/jpeg;base64,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",
+    alt:  "GPS tracking visualization",
+    details:  "Telematics and GPS integration for real-time fleet monitoring and driver performance analytics.",
+    about:  "Take control of your assets on the road. Our fleet management system combines telematics with advanced route optimization to reduce mileage, monitor driver safety, and maintain vehicle health. It’s about keeping your fleet moving safely and efficiently.",
+    futureScope:  "By 2045, fleet management will focus on 'Asset Orchestration'. Our software will manage fleets that move themselves, optimizing energy charging cycles and maintenance schedules autonomously across global networks.",
+    benefits:  [
       "10% reduction in overall fleet maintenance costs.",
       "Significant improvements in driver safety and compliance scores.",
       "Real-time visibility into vehicle health and performance.",
       "Lowered fuel expenses through optimized route sequencing."
     ],
-    integrationNote: "Feeds real-time fleet telematics into the broader Supply Chain Visibility and Optimization Software ecosystem."
+    integrationNote:  "Feeds real-time fleet telematics into the broader Supply Chain Visibility and Optimization Software ecosystem.",
+    keyFeatures:  [
+      {
+        category:  "🗺️ Route Optimization",
+        items:  [
+          "Multi-constraint route planning",
+          "Real-time traffic integration",
+          "Fuel-efficient path calculation"
+        ]
+      },
+      {
+        category:  "🚛 Fleet Tracking",
+        items:  [
+          "Live GPS vehicle tracking",
+          "Geofencing & zone alerts",
+          "Driver behavior monitoring"
+        ]
+      },
+      {
+        category:  "🔧 Maintenance Management",
+        items:  [
+          "Predictive maintenance alerts",
+          "Service history tracking",
+          "Vehicle health diagnostics"
+        ]
+      },
+      {
+        category:  "📊 Analytics & Reporting",
+        items:  [
+          "Fleet utilization dashboards",
+          "Total cost of ownership analysis",
+          "Driver performance scorecards"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Optimized fleet utilization rates",
+          "Reduced unplanned downtime"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "10% reduction in maintenance costs",
+          "Lower fuel expenses via route optimization"
+        ]
+      },
+      {
+        category:  "🛡️ Safety",
+        items:  [
+          "Driver safety scoring & coaching",
+          "Accident reduction through monitoring"
+        ]
+      },
+      {
+        category:  "📋 Compliance",
+        items:  [
+          "ELD/HOS compliance automation",
+          "Regulatory reporting simplified"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Vehicle tracking",
+          "Route planning",
+          "Maintenance scheduling",
+          "Driver management"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Telematics hardware integration",
+          "Cloud platform",
+          "Mobile driver app"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Trucking companies",
+          "Delivery fleets",
+          "Field service organizations"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🚛 Trucking",
+        scenarios:  [
+          "Long-haul route optimization",
+          "Multi-stop delivery planning"
+        ]
+      },
+      {
+        industry:  "🔧 Field Service",
+        scenarios:  [
+          "Technician dispatch optimization",
+          "Service territory management"
+        ]
+      },
+      {
+        industry:  "🏗️ Construction",
+        scenarios:  [
+          "Equipment fleet tracking",
+          "Job-site logistics coordination"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Telematics Devices",
+        description:  "GPS trackers, OBD-II sensors"
+      },
+      {
+        layer:  "Data Collection",
+        description:  "Real-time vehicle & driver data"
+      },
+      {
+        layer:  "Optimization Engine",
+        description:  "Route planning algorithms"
+      },
+      {
+        layer:  "Fleet Management Portal",
+        description:  "Dashboards, alerts, reports"
+      },
+      {
+        layer:  "Mobile App",
+        description:  "Driver navigation & communication"
+      }
+    ]
   },
   {
-    id: 9,
-    name: "Reverse Logistics and Returns Management Solutions",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1600&auto=format&fit=crop",
-    alt: "Returns processing station",
-    details: "Streamlined processing of returns, refurbishing, and recycling to recover value and improve customer satisfaction.",
-    about: "The forward supply chain is only half the story. Our reverse logistics platform manages the complex process of returns, repairs, and recycling. It provides a seamless experience for the customer while optimizing the route back to the warehouse to maximize value recovery.",
-    futureScope: "The future is a 'Circular Supply Chain'. In 20 years, our platform will automate the entire 'End-of-Life' journey for products, automatically routing materials to recycling or upcycling facilities to achieve 100% sustainability.",
-    benefits: [
+    id:  9,
+    name:  "Reverse Logistics and Returns Management Solutions",
+    image:  "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Returns processing station",
+    details:  "Streamlined processing of returns, refurbishing, and recycling to recover value and improve customer satisfaction.",
+    about:  "The forward supply chain is only half the story. Our reverse logistics platform manages the complex process of returns, repairs, and recycling. It provides a seamless experience for the customer while optimizing the route back to the warehouse to maximize value recovery.",
+    futureScope:  "The future is a 'Circular Supply Chain'. In 20 years, our platform will automate the entire 'End-of-Life' journey for products, automatically routing materials to recycling or upcycling facilities to achieve 100% sustainability.",
+    benefits:  [
       "30% recovery in value from returned inventory.",
       "Lowered return processing costs through automated routing.",
       "Enhanced brand loyalty with a frictionless return experience.",
       "Granular data on why products are being returned to improve future designs."
     ],
-    integrationNote: "Ensures the 'return loop' is visible within the Supply Chain Visibility and Optimization Software dashboard."
+    integrationNote:  "Ensures the 'return loop' is visible within the Supply Chain Visibility and Optimization Software dashboard.",
+    keyFeatures:  [
+      {
+        category:  "📦 Returns Processing",
+        items:  [
+          "Automated RMA generation",
+          "Return reason classification",
+          "Quality inspection workflows"
+        ]
+      },
+      {
+        category:  "🔄 Disposition Management",
+        items:  [
+          "Refurbish/restock decisions",
+          "Recycling & disposal routing",
+          "Resale channel optimization"
+        ]
+      },
+      {
+        category:  "💰 Value Recovery",
+        items:  [
+          "Refurbishment tracking",
+          "Secondary market integration",
+          "Parts harvesting management"
+        ]
+      },
+      {
+        category:  "📊 Analytics",
+        items:  [
+          "Return rate analysis by SKU",
+          "Root cause pattern identification",
+          "Cost-of-returns dashboards"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Streamlined returns processing",
+          "Faster refurbishment turnaround"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "30% value recovery from returns",
+          "Reduced return processing costs"
+        ]
+      },
+      {
+        category:  "📦 Customer Experience",
+        items:  [
+          "Frictionless return experience",
+          "Faster refund processing"
+        ]
+      },
+      {
+        category:  "🌱 Sustainability",
+        items:  [
+          "Reduced landfill waste",
+          "Circular economy enablement"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Return initiation",
+          "Receiving & inspection",
+          "Disposition routing",
+          "Refurbishment tracking"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud platform",
+          "E-commerce integration",
+          "Mobile inspection tools"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "E-commerce retailers",
+          "Electronics manufacturers",
+          "Fashion & apparel brands"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 E-commerce",
+        scenarios:  [
+          "Customer self-service returns",
+          "Warehouse returns processing"
+        ]
+      },
+      {
+        industry:  "📱 Electronics",
+        scenarios:  [
+          "Refurbishment pipeline management",
+          "Trade-in program automation"
+        ]
+      },
+      {
+        industry:  "👗 Fashion",
+        scenarios:  [
+          "Size/fit return analytics",
+          "Seasonal return surge management"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Customer Portal",
+        description:  "Return initiation & tracking"
+      },
+      {
+        layer:  "Returns Engine",
+        description:  "RMA, routing, disposition logic"
+      },
+      {
+        layer:  "Inspection Module",
+        description:  "Quality checks & grading"
+      },
+      {
+        layer:  "Recovery Pipeline",
+        description:  "Refurbish, resell, recycle paths"
+      },
+      {
+        layer:  "Analytics Dashboard",
+        description:  "Return patterns & cost analysis"
+      }
+    ]
   },
   {
-    id: 10,
-    name: "Collaborative Logistics and Freight Management Platforms",
-    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1600&auto=format&fit=crop",
-    alt: "Multi-user collaboration portal",
-    details: "Shared platforms for multi-stakeholder communication and shared capacity optimization.",
-    about: "Logistics is a team sport. Our collaborative platform breaks down silos between shippers, carriers, and 3PLs. It provides a shared workspace for document exchange, communication, and shared capacity utilization, reducing friction and improving synchronization.",
-    futureScope: "We envision a global 'Logistics Internet'. Our platform will evolve into an open-source protocol where every logistics entity can plug in and collaborate instantly, much like data packets move across the internet today.",
-    benefits: [
+    id:  10,
+    name:  "Collaborative Logistics and Freight Management Platforms",
+    image:  "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Multi-user collaboration portal",
+    details:  "Shared platforms for multi-stakeholder communication and shared capacity optimization.",
+    about:  "Logistics is a team sport. Our collaborative platform breaks down silos between shippers, carriers, and 3PLs. It provides a shared workspace for document exchange, communication, and shared capacity utilization, reducing friction and improving synchronization.",
+    futureScope:  "We envision a global 'Logistics Internet'. Our platform will evolve into an open-source protocol where every logistics entity can plug in and collaborate instantly, much like data packets move across the internet today.",
+    benefits:  [
       "Elimination of hours of manual follow-up emails and phone calls.",
       "Improved partner performance through shared KPIs and transparency.",
       "Optimized capacity sharing to reduce environmental impact.",
       "Centralized document management for faster customs and billing."
     ],
-    integrationNote: "Facilitates the data sharing required for the Supply Chain Visibility and Optimization Software to function across companies."
+    integrationNote:  "Facilitates the data sharing required for the Supply Chain Visibility and Optimization Software to function across companies.",
+    keyFeatures:  [
+      {
+        category:  "🤝 Multi-Party Collaboration",
+        items:  [
+          "Shared shipment visibility",
+          "Cross-company capacity sharing",
+          "Joint planning workspaces"
+        ]
+      },
+      {
+        category:  "📄 Document Exchange",
+        items:  [
+          "Digital document sharing",
+          "Electronic signature support",
+          "Version-controlled file management"
+        ]
+      },
+      {
+        category:  "💬 Communication Hub",
+        items:  [
+          "In-platform messaging",
+          "Task assignment & tracking",
+          "Automated status notifications"
+        ]
+      },
+      {
+        category:  "📊 Shared Analytics",
+        items:  [
+          "Cross-partner KPI dashboards",
+          "Shared performance benchmarks",
+          "Collaborative forecasting tools"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Eliminated manual email follow-ups",
+          "Synchronized multi-party workflows"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Shared capacity reduces empty miles",
+          "Lower administrative overhead"
+        ]
+      },
+      {
+        category:  "🤝 Partnership",
+        items:  [
+          "Improved partner performance through transparency",
+          "Stronger long-term relationships"
+        ]
+      },
+      {
+        category:  "🌱 Sustainability",
+        items:  [
+          "Reduced carbon footprint through load sharing",
+          "Optimized network resource utilization"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Partner onboarding",
+          "Document management",
+          "Capacity sharing",
+          "Performance tracking"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud collaboration platform",
+          "API integrations",
+          "Role-based access control"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Shipper-carrier networks",
+          "3PL ecosystems",
+          "Trade lane consortiums"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Supplier-manufacturer coordination",
+          "Multi-plant logistics sync"
+        ]
+      },
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Vendor-managed inventory collaboration",
+          "Cross-dock coordination"
+        ]
+      },
+      {
+        industry:  "🌍 Global Trade",
+        scenarios:  [
+          "Multi-party trade document flow",
+          "Consortium freight sharing"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Identity & Access",
+        description:  "Multi-tenant, role-based access"
+      },
+      {
+        layer:  "Collaboration Hub",
+        description:  "Messaging, tasks, documents"
+      },
+      {
+        layer:  "Data Sharing Layer",
+        description:  "Secure inter-company data exchange"
+      },
+      {
+        layer:  "Analytics Engine",
+        description:  "Shared KPIs, benchmarking"
+      },
+      {
+        layer:  "Integration Gateway",
+        description:  "ERP, TMS, WMS connectors"
+      }
+    ]
   },
   {
-    id: 11,
-    name: "Customs Compliance and Trade Facilitation Software",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1600&auto=format&fit=crop",
-    alt: "International trade documentation interface",
-    details: "Automated duty calculations and international trade documentation for seamless cross-border shipping.",
-    about: "Navigate the complexities of global trade with confidence. Our software automates the generation of customs documentation, calculates applicable duties and taxes, and ensures compliance with ever-changing international regulations.",
-    futureScope: "By 2045, borders will be digitally transparent. Our software will integrate directly with global government systems, allowing for 'Pre-Cleared' shipments that never need to stop for manual inspection at a physical border.",
-    benefits: [
+    id:  11,
+    name:  "Customs Compliance and Trade Facilitation Software",
+    image:  "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1600&auto=format&fit=crop",
+    alt:  "International trade documentation interface",
+    details:  "Automated duty calculations and international trade documentation for seamless cross-border shipping.",
+    about:  "Navigate the complexities of global trade with confidence. Our software automates the generation of customs documentation, calculates applicable duties and taxes, and ensures compliance with ever-changing international regulations.",
+    futureScope:  "By 2045, borders will be digitally transparent. Our software will integrate directly with global government systems, allowing for 'Pre-Cleared' shipments that never need to stop for manual inspection at a physical border.",
+    benefits:  [
       "90% reduction in customs-related shipping delays.",
       "Elimination of costly fines and penalties for non-compliance.",
       "Accurate landed cost calculations for better pricing strategies.",
       "Streamlined multi-country documentation workflows."
     ],
-    integrationNote: "Provides the regulatory intelligence layer for the Supply Chain Visibility and Optimization Software's international routes."
+    integrationNote:  "Provides the regulatory intelligence layer for the Supply Chain Visibility and Optimization Software's international routes.",
+    keyFeatures:  [
+      {
+        category:  "📋 Documentation Automation",
+        items:  [
+          "Auto-generated customs forms",
+          "Commercial invoice creation",
+          "Certificate of origin management"
+        ]
+      },
+      {
+        category:  "💲 Duty Calculation",
+        items:  [
+          "Real-time tariff lookups",
+          "Landed cost estimation",
+          "Free trade agreement optimization"
+        ]
+      },
+      {
+        category:  "🔍 Compliance Screening",
+        items:  [
+          "Denied party screening",
+          "Export control classification",
+          "Sanctions list monitoring"
+        ]
+      },
+      {
+        category:  "🌍 Multi-Country Support",
+        items:  [
+          "190+ country regulation database",
+          "Regional compliance updates",
+          "Multi-language documentation"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "90% reduction in customs delays",
+          "Automated documentation workflows"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Accurate landed cost calculations",
+          "FTA duty savings identification"
+        ]
+      },
+      {
+        category:  "🛡️ Risk Mitigation",
+        items:  [
+          "Zero compliance violations",
+          "Eliminated penalty risk"
+        ]
+      },
+      {
+        category:  "📊 Visibility",
+        items:  [
+          "Real-time customs status tracking",
+          "Cross-border shipment monitoring"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Import/export documentation",
+          "Tariff classification",
+          "Duty calculation",
+          "Compliance screening"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud platform",
+          "Government system integrations",
+          "Real-time regulation database"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "International shippers",
+          "Customs brokers",
+          "Freight forwarders"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Cross-border parts sourcing",
+          "Export compliance management"
+        ]
+      },
+      {
+        industry:  "🛒 E-commerce",
+        scenarios:  [
+          "Cross-border selling compliance",
+          "De minimis threshold management"
+        ]
+      },
+      {
+        industry:  "🌍 Global Trade",
+        scenarios:  [
+          "Multi-country tariff optimization",
+          "FTA certificate management"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Regulation Database",
+        description:  "Global tariffs, rules, sanctions"
+      },
+      {
+        layer:  "Classification Engine",
+        description:  "HTS code determination"
+      },
+      {
+        layer:  "Documentation Generator",
+        description:  "Forms, invoices, certificates"
+      },
+      {
+        layer:  "Screening Module",
+        description:  "Denied party & sanctions checks"
+      },
+      {
+        layer:  "Government Gateway",
+        description:  "Customs authority submissions"
+      }
+    ]
   },
   {
-    id: 12,
-    name: "Supplier Collaboration and Vendor Management Systems",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1600&auto=format&fit=crop",
-    alt: "Supplier performance dashboard",
-    details: "Performance tracking and automated communication tools to strengthen supply chain partnerships.",
-    about: "Your supply chain is only as strong as your weakest supplier. Our VRM system provides a portal for managing supplier performance, tracking orders at the source, and collaborating on product quality and delivery timelines.",
-    futureScope: "The future is 'Self-Managing Supplier Networks'. Our platform will autonomously scan the globe for new suppliers, vet them for sustainability and ethics, and onboard them into your network without human intervention.",
-    benefits: [
+    id:  12,
+    name:  "Supplier Collaboration and Vendor Management Systems",
+    image:  "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Supplier performance dashboard",
+    details:  "Performance tracking and automated communication tools to strengthen supply chain partnerships.",
+    about:  "Your supply chain is only as strong as your weakest supplier. Our VRM system provides a portal for managing supplier performance, tracking orders at the source, and collaborating on product quality and delivery timelines.",
+    futureScope:  "The future is 'Self-Managing Supplier Networks'. Our platform will autonomously scan the globe for new suppliers, vet them for sustainability and ethics, and onboard them into your network without human intervention.",
+    benefits:  [
       "Improved supplier lead time consistency through performance tracking.",
       "Reduced procurement risk through multi-source visibility.",
       "Automated communication of order changes and quality standards.",
       "Enhanced transparency into 'Tier 2' and 'Tier 3' supply tiers."
     ],
-    integrationNote: "Pushes upstream supply data into the Supply Chain Visibility and Optimization Software for earlier visibility."
+    integrationNote:  "Pushes upstream supply data into the Supply Chain Visibility and Optimization Software for earlier visibility.",
+    keyFeatures:  [
+      {
+        category:  "📊 Performance Tracking",
+        items:  [
+          "Supplier scorecards",
+          "On-time delivery metrics",
+          "Quality defect tracking"
+        ]
+      },
+      {
+        category:  "🔗 Order Collaboration",
+        items:  [
+          "Purchase order portal",
+          "ASN management",
+          "Change order workflows"
+        ]
+      },
+      {
+        category:  "🌍 Supplier Discovery",
+        items:  [
+          "Global supplier database",
+          "Capability matching engine",
+          "Sustainability vetting"
+        ]
+      },
+      {
+        category:  "📋 Compliance Management",
+        items:  [
+          "Document collection & verification",
+          "Audit trail management",
+          "Certification expiry tracking"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Improved supplier lead time consistency",
+          "Automated order communication"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced procurement risk through multi-sourcing",
+          "Better negotiation through performance data"
+        ]
+      },
+      {
+        category:  "🔍 Visibility",
+        items:  [
+          "Tier 2 & Tier 3 supply chain visibility",
+          "Real-time order status tracking"
+        ]
+      },
+      {
+        category:  "🌱 Sustainability",
+        items:  [
+          "Ethical sourcing verification",
+          "Carbon footprint tracking per supplier"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Supplier onboarding",
+          "Performance management",
+          "Order collaboration",
+          "Risk monitoring"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Supplier portal (SaaS)",
+          "ERP integration",
+          "Document management system"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Manufacturing procurement",
+          "Retail sourcing",
+          "Multi-tier supply networks"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Automotive supplier management",
+          "Multi-tier visibility for complex assemblies"
+        ]
+      },
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Private label supplier coordination",
+          "Seasonal sourcing management"
+        ]
+      },
+      {
+        industry:  "💊 Pharma",
+        scenarios:  [
+          "API supplier qualification",
+          "GMP compliance tracking"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Supplier Portal",
+        description:  "Self-service registration & communication"
+      },
+      {
+        layer:  "Performance Engine",
+        description:  "KPI calculation & scorecards"
+      },
+      {
+        layer:  "Risk Module",
+        description:  "Financial & geopolitical risk monitoring"
+      },
+      {
+        layer:  "Collaboration Hub",
+        description:  "Orders, ASNs, change management"
+      },
+      {
+        layer:  "Analytics Dashboard",
+        description:  "Spend analysis, supplier ranking"
+      }
+    ]
   },
   {
-    id: 13,
-    name: "Real-time Shipment Tracking and Visibility Solutions",
-    image: "data:image/jpeg;base64,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",
-    alt: "Global shipment map",
-    details: "End-to-end transparency for customers and businesses through interactive maps and automated alerts.",
-    about: "Give your customers the 'Amazon-like' experience they expect. Our tracking solution provides a beautiful, interactive interface where your customers can see exactly where their shipment is, alongside automated milestone notifications.",
-    futureScope: "Shipment tracking will move into the 'Immersive Era'. Using AR, stakeholders will be able to 'step into' a virtual model of the shipment's environment, seeing exactly how the cargo is being handled in real-time.",
-    benefits: [
+    id:  13,
+    name:  "Real-time Shipment Tracking and Visibility Solutions",
+    image:  "data:image/jpeg;base64,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",
+    alt:  "Global shipment map",
+    details:  "End-to-end transparency for customers and businesses through interactive maps and automated alerts.",
+    about:  "Give your customers the 'Amazon-like' experience they expect. Our tracking solution provides a beautiful, interactive interface where your customers can see exactly where their shipment is, alongside automated milestone notifications.",
+    futureScope:  "Shipment tracking will move into the 'Immersive Era'. Using AR, stakeholders will be able to 'step into' a virtual model of the shipment's environment, seeing exactly how the cargo is being handled in real-time.",
+    benefits:  [
       "40% reduction in 'Where is my order?' customer service calls.",
       "Increased customer trust and brand loyalty.",
       "Real-time map visualization for both B2B and B2C shipments.",
       "Automated SMS and Email notifications for key milestones."
     ],
-    integrationNote: "Acts as the customer-facing interface for the data generated by the Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Acts as the customer-facing interface for the data generated by the Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "🗺️ Interactive Mapping",
+        items:  [
+          "Live shipment map visualization",
+          "Multi-modal route display",
+          "Geofence zone alerts"
+        ]
+      },
+      {
+        category:  "🔔 Automated Notifications",
+        items:  [
+          "SMS & email milestone alerts",
+          "Delay prediction warnings",
+          "Delivery confirmation notices"
+        ]
+      },
+      {
+        category:  "📱 Customer Experience",
+        items:  [
+          "Branded tracking pages",
+          "Self-service tracking portal",
+          "Delivery rating & feedback"
+        ]
+      },
+      {
+        category:  "📊 Analytics",
+        items:  [
+          "Transit time analysis",
+          "Carrier on-time performance",
+          "Exception pattern reporting"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "40% reduction in WISMO calls",
+          "Proactive exception management"
+        ]
+      },
+      {
+        category:  "📦 Customer Experience",
+        items:  [
+          "Amazon-like tracking experience",
+          "Increased customer trust & loyalty"
+        ]
+      },
+      {
+        category:  "📊 Visibility",
+        items:  [
+          "End-to-end shipment transparency",
+          "Real-time B2B & B2C visibility"
+        ]
+      },
+      {
+        category:  "🤝 Partnership",
+        items:  [
+          "Carrier accountability through data",
+          "Shared visibility with trading partners"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Multi-carrier tracking",
+          "Customer notifications",
+          "Exception management",
+          "Delivery analytics"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud platform",
+          "Carrier API integrations",
+          "Mobile-responsive tracking"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "E-commerce brands",
+          "B2B shippers",
+          "Logistics service providers"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 E-commerce",
+        scenarios:  [
+          "Post-purchase tracking experience",
+          "Delivery exception management"
+        ]
+      },
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Inbound material tracking",
+          "Customer shipment visibility portal"
+        ]
+      },
+      {
+        industry:  "🚛 Logistics",
+        scenarios:  [
+          "Multi-client tracking dashboard",
+          "SLA compliance monitoring"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Carrier Integrations",
+        description:  "API connections to 500+ carriers"
+      },
+      {
+        layer:  "Data Normalization",
+        description:  "Unified tracking event format"
+      },
+      {
+        layer:  "Prediction Engine",
+        description:  "ETA calculation & delay forecasting"
+      },
+      {
+        layer:  "Notification Service",
+        description:  "Email, SMS, push notifications"
+      },
+      {
+        layer:  "Tracking Portal",
+        description:  "Branded customer-facing pages"
+      }
+    ]
   },
   {
-    id: 14,
-    name: "Autonomous Vehicle Fleet Management Software",
-    image: "data:image/jpeg;base64,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",
-    alt: "Self-driving truck simulation",
-    details: "Control systems and monitoring for driverless trucks and delivery drones in restricted or open environments.",
-    about: "Prepare for the autonomous revolution. Our software provides the control and monitoring layer for fleets of driverless trucks. It handles remote intervention, mission planning, and mission-to-mission handover for unmanned assets.",
-    futureScope: "In 20 years, human-driven freight will be a rarity. Our software will manage the 'Air Traffic Control' for millions of autonomous assets crisscrossing the globe, optimizing for safety and energy consumption above all else.",
-    benefits: [
+    id:  14,
+    name:  "Autonomous Vehicle Fleet Management Software",
+    image:  "data:image/jpeg;base64,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",
+    alt:  "Self-driving truck simulation",
+    details:  "Control systems and monitoring for driverless trucks and delivery drones in restricted or open environments.",
+    about:  "Prepare for the autonomous revolution. Our software provides the control and monitoring layer for fleets of driverless trucks. It handles remote intervention, mission planning, and mission-to-mission handover for unmanned assets.",
+    futureScope:  "In 20 years, human-driven freight will be a rarity. Our software will manage the 'Air Traffic Control' for millions of autonomous assets crisscrossing the globe, optimizing for safety and energy consumption above all else.",
+    benefits:  [
       "24/7 fleet operation without driver rest constraints.",
       "Significantly safer operations through the elimination of human error.",
       "Lowered operational costs through optimized autonomous driving patterns.",
       "Direct integration with unmanned port and terminal systems."
     ],
-    integrationNote: "Ensures autonomous assets are synchronized with global demand signals from the Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Ensures autonomous assets are synchronized with global demand signals from the Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "🤖 Autonomous Control",
+        items:  [
+          "Remote vehicle supervision",
+          "Autonomous mission planning",
+          "Safety intervention protocols"
+        ]
+      },
+      {
+        category:  "📡 Sensor Fusion",
+        items:  [
+          "LiDAR & camera data processing",
+          "Real-time environment mapping",
+          "Obstacle detection & avoidance"
+        ]
+      },
+      {
+        category:  "🔋 Energy Management",
+        items:  [
+          "Battery range optimization",
+          "Charging schedule automation",
+          "Energy consumption analytics"
+        ]
+      },
+      {
+        category:  "📊 Fleet Intelligence",
+        items:  [
+          "Fleet-wide performance monitoring",
+          "Predictive maintenance for AV",
+          "Utilization optimization"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "24/7 operation without driver constraints",
+          "Consistent driving performance"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Eliminated driver labor costs",
+          "Optimized energy consumption"
+        ]
+      },
+      {
+        category:  "🛡️ Safety",
+        items:  [
+          "Elimination of human-error accidents",
+          "Always-alert driving systems"
+        ]
+      },
+      {
+        category:  "🌱 Sustainability",
+        items:  [
+          "Electric vehicle integration",
+          "Optimized routes for lower emissions"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "AV mission planning",
+          "Remote monitoring & intervention",
+          "Safety compliance",
+          "Energy management"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Edge computing on vehicles",
+          "5G connectivity",
+          "AI/ML control systems"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Middle-mile freight",
+          "Port & terminal operations",
+          "Last-mile delivery pods"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🚛 Freight",
+        scenarios:  [
+          "Highway autonomous trucking",
+          "Hub-to-hub middle-mile transport"
+        ]
+      },
+      {
+        industry:  "🏗️ Ports & Terminals",
+        scenarios:  [
+          "Autonomous container transport",
+          "Yard management automation"
+        ]
+      },
+      {
+        industry:  "📦 Last-Mile",
+        scenarios:  [
+          "Sidewalk delivery robot fleets",
+          "Autonomous delivery van operation"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Vehicle Edge Computing",
+        description:  "On-board AI, sensor processing"
+      },
+      {
+        layer:  "Cloud Command Center",
+        description:  "Remote supervision, fleet orchestration"
+      },
+      {
+        layer:  "Mission Planning",
+        description:  "Route, timing, priority optimization"
+      },
+      {
+        layer:  "Safety Systems",
+        description:  "Intervention protocols, fail-safes"
+      },
+      {
+        layer:  "Fleet Analytics",
+        description:  "Performance, maintenance, utilization"
+      }
+    ]
   },
   {
-    id: 15,
-    name: "Blockchain for Transparent and Secure Supply Chains",
-    image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=1600&auto=format&fit=crop",
-    alt: "Secure digital ledger visualization",
-    details: "Immutable ledger technology for tracking product provenance and verifying authenticity.",
-    about: "Trust but verify. Our blockchain integration provides an immutable record of every transaction and movement in your supply chain. It's the ultimate solution for food safety, luxury goods provenance, and ethical sourcing verification.",
-    futureScope: "Blockchain will become the foundational infrastructure for all trade. We are building toward a world where 'Trust' is code-based, and every product carries a digital 'Passport' containing its entire life story.",
-    benefits: [
+    id:  15,
+    name:  "Blockchain for Transparent and Secure Supply Chains",
+    image:  "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Secure digital ledger visualization",
+    details:  "Immutable ledger technology for tracking product provenance and verifying authenticity.",
+    about:  "Trust but verify. Our blockchain integration provides an immutable record of every transaction and movement in your supply chain. It's the ultimate solution for food safety, luxury goods provenance, and ethical sourcing verification.",
+    futureScope:  "Blockchain will become the foundational infrastructure for all trade. We are building toward a world where 'Trust' is code-based, and every product carries a digital 'Passport' containing its entire life story.",
+    benefits:  [
       "Instant and irrefutable proof of product authenticity.",
       "Deep visibility into ethical sourcing and sustainability practices.",
       "Dramatic reduction in paperwork and administrative fraud.",
       "Automated escrow and payment triggers for supply chain partners."
     ],
-    integrationNote: "Provides the underlying security and trust layer for the data in our Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Provides the underlying security and trust layer for the data in our Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "🔗 Distributed Ledger",
+        items:  [
+          "Immutable transaction records",
+          "Decentralized consensus mechanism",
+          "Smart contract automation"
+        ]
+      },
+      {
+        category:  "📦 Product Provenance",
+        items:  [
+          "Origin-to-shelf tracking",
+          "Authenticity verification",
+          "Ethical sourcing certification"
+        ]
+      },
+      {
+        category:  "💲 Smart Payments",
+        items:  [
+          "Automated escrow & release",
+          "Multi-party payment splitting",
+          "Instant cross-border settlement"
+        ]
+      },
+      {
+        category:  "📋 Digital Documentation",
+        items:  [
+          "Tokenized trade documents",
+          "Tamper-proof certificates",
+          "Digital bill of lading"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "🔒 Trust & Security",
+        items:  [
+          "Irrefutable proof of authenticity",
+          "Tamper-proof transaction history"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced fraud and counterfeiting losses",
+          "Automated payment execution"
+        ]
+      },
+      {
+        category:  "📊 Transparency",
+        items:  [
+          "End-to-end product traceability",
+          "Ethical & sustainability verification"
+        ]
+      },
+      {
+        category:  "⚡ Efficiency",
+        items:  [
+          "Elimination of paper-based processes",
+          "Faster dispute resolution"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Product tracking",
+          "Document management",
+          "Smart contracts",
+          "Payment automation"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Hyperledger/Ethereum frameworks",
+          "API integration layer",
+          "Identity management"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Food safety tracing",
+          "Luxury goods authentication",
+          "Pharmaceutical serialization"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🥩 Food & Beverage",
+        scenarios:  [
+          "Farm-to-fork traceability",
+          "Recall management acceleration"
+        ]
+      },
+      {
+        industry:  "👜 Luxury Goods",
+        scenarios:  [
+          "Anti-counterfeiting verification",
+          "Ownership history tracking"
+        ]
+      },
+      {
+        industry:  "💊 Pharma",
+        scenarios:  [
+          "Drug serialization compliance",
+          "Supply chain integrity verification"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Blockchain Network",
+        description:  "Distributed ledger nodes"
+      },
+      {
+        layer:  "Smart Contracts",
+        description:  "Business logic automation"
+      },
+      {
+        layer:  "Integration Gateway",
+        description:  "ERP, IoT, external systems"
+      },
+      {
+        layer:  "Identity Layer",
+        description:  "Participant authentication"
+      },
+      {
+        layer:  "Application Interface",
+        description:  "Web/mobile user dashboards"
+      }
+    ]
   },
   {
-    id: 16,
-    name: "Procurement and Purchase Order Management Software",
-    image: "https://images.unsplash.com/photo-1454165205744-3b78555e5572?q=80&w=1600&auto=format&fit=crop",
-    alt: "Purchase order workflow interface",
-    details: "Automated requisitioning and approval workflows to streamline corporate spending.",
-    about: "Control your spend from the start. Our procurement system digitizes the entire purchase order process, from initial requisition and manager approval to final vendor payment. It brings transparency to corporate spending.",
-    futureScope: "The future of procurement is 'Predictive Sourcing'. The software will automatically issue purchase orders before a shortage even occurs, based on real-time consumption data and global market price fluctuations.",
-    benefits: [
+    id:  16,
+    name:  "Procurement and Purchase Order Management Software",
+    image:  "https://images.unsplash.com/photo-1454165205744-3b78555e5572?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Purchase order workflow interface",
+    details:  "Automated requisitioning and approval workflows to streamline corporate spending.",
+    about:  "Control your spend from the start. Our procurement system digitizes the entire purchase order process, from initial requisition and manager approval to final vendor payment. It brings transparency to corporate spending.",
+    futureScope:  "The future of procurement is 'Predictive Sourcing'. The software will automatically issue purchase orders before a shortage even occurs, based on real-time consumption data and global market price fluctuations.",
+    benefits:  [
       "Full visibility into corporate spend analytics.",
       "Elimination of manual errors in order entry and billing.",
       "Accelerated approval cycles through automated mobile workflows.",
       "Stronger compliance with corporate procurement policies."
     ],
-    integrationNote: "Feeds the 'Inbound' pipeline data into the Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Feeds the 'Inbound' pipeline data into the Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "📋 Requisition Management",
+        items:  [
+          "Digital purchase requisitions",
+          "Multi-level approval workflows",
+          "Budget checking & controls"
+        ]
+      },
+      {
+        category:  "🔍 Sourcing Tools",
+        items:  [
+          "Supplier comparison engine",
+          "RFQ/RFP automation",
+          "Contract management"
+        ]
+      },
+      {
+        category:  "📊 Spend Analytics",
+        items:  [
+          "Category-level spend visibility",
+          "Maverick spend detection",
+          "Cost savings tracking"
+        ]
+      },
+      {
+        category:  "🔗 Supplier Integration",
+        items:  [
+          "Supplier catalog management",
+          "Punch-out catalog support",
+          "Automated PO dispatch"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Automated approval workflows",
+          "Elimination of manual PO errors"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Full spend visibility & control",
+          "Contract compliance enforcement"
+        ]
+      },
+      {
+        category:  "📊 Strategic",
+        items:  [
+          "Data-driven sourcing decisions",
+          "Supplier consolidation insights"
+        ]
+      },
+      {
+        category:  "📋 Compliance",
+        items:  [
+          "Policy enforcement through digital workflows",
+          "Complete audit trail for all transactions"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Requisitioning",
+          "Approval routing",
+          "PO management",
+          "Receiving & matching"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud procurement suite",
+          "ERP integration",
+          "Mobile approval app"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Enterprise procurement teams",
+          "Government agencies",
+          "Healthcare organizations"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Direct material procurement",
+          "MRO purchasing automation"
+        ]
+      },
+      {
+        industry:  "🏥 Healthcare",
+        scenarios:  [
+          "Medical supply procurement",
+          "Group purchasing organization integration"
+        ]
+      },
+      {
+        industry:  "🏢 Enterprise",
+        scenarios:  [
+          "Indirect spend management",
+          "Corporate purchasing policy enforcement"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Requisition Portal",
+        description:  "User request & catalog browsing"
+      },
+      {
+        layer:  "Approval Engine",
+        description:  "Workflow routing & budget checks"
+      },
+      {
+        layer:  "Sourcing Module",
+        description:  "RFQ, supplier comparison, contracts"
+      },
+      {
+        layer:  "PO Management",
+        description:  "Order creation, dispatch, tracking"
+      },
+      {
+        layer:  "Analytics Suite",
+        description:  "Spend analysis, savings reporting"
+      }
+    ]
   },
   {
-    id: 17,
-    name: "Cross-Border Trade Compliance and Documentation Tools",
-    image: "https://worldbusinessoutlook.com/wp-content/uploads/2025/08/AI-in-Cross-Border-Trade-Streamlining-Compliance-and-Logistics.png",
-    alt: "Complex trade documents visualization",
-    details: "Specialized tools for navigating complex international regulations and tariff codes.",
-    about: "International shipping doesn't have to be a headache. Our specialized tools help you classify products across thousands of HTS codes, verify rules of origin, and manage the complex documentation required for global trade lanes.",
-    futureScope: "We are working toward 'Instant Global Markets'. In 20 years, any product will be able to move to any country instantly, with all compliance and taxes handled by AI in the background, making international shipping as easy as domestic.",
-    benefits: [
+    id:  17,
+    name:  "Cross-Border Trade Compliance and Documentation Tools",
+    image:  "https://worldbusinessoutlook.com/wp-content/uploads/2025/08/AI-in-Cross-Border-Trade-Streamlining-Compliance-and-Logistics.png",
+    alt:  "Complex trade documents visualization",
+    details:  "Specialized tools for navigating complex international regulations and tariff codes.",
+    about:  "International shipping doesn't have to be a headache. Our specialized tools help you classify products across thousands of HTS codes, verify rules of origin, and manage the complex documentation required for global trade lanes.",
+    futureScope:  "We are working toward 'Instant Global Markets'. In 20 years, any product will be able to move to any country instantly, with all compliance and taxes handled by AI in the background, making international shipping as easy as domestic.",
+    benefits:  [
       "Automatic classification of products for global trade lanes.",
       "Real-time monitoring of trade sanctions and restricted parties.",
       "Simplified management of Free Trade Agreement (FTA) benefits.",
       "Reduced risk of border seizures and shipping delays."
     ],
-    integrationNote: "Ensures the international segments of the Supply Chain Visibility and Optimization Software's routes are fully compliant."
+    integrationNote:  "Ensures the international segments of the Supply Chain Visibility and Optimization Software's routes are fully compliant.",
+    keyFeatures:  [
+      {
+        category:  "📦 Product Classification",
+        items:  [
+          "HTS code determination",
+          "ECCN classification",
+          "Schedule B management"
+        ]
+      },
+      {
+        category:  "📋 Rules of Origin",
+        items:  [
+          "Origin determination engine",
+          "FTA qualification analysis",
+          "Certificate of origin automation"
+        ]
+      },
+      {
+        category:  "🔍 Restricted Party Screening",
+        items:  [
+          "Real-time sanctions screening",
+          "Denied persons list checks",
+          "Entity resolution matching"
+        ]
+      },
+      {
+        category:  "🌍 Regulatory Intelligence",
+        items:  [
+          "Real-time regulation updates",
+          "Country-specific requirement alerts",
+          "Trade embargo monitoring"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Instant product classification",
+          "Automated compliance documentation"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "FTA duty savings maximized",
+          "Eliminated compliance penalties"
+        ]
+      },
+      {
+        category:  "🛡️ Risk",
+        items:  [
+          "Zero sanction violations",
+          "Reduced border seizure risk"
+        ]
+      },
+      {
+        category:  "🌍 Global Reach",
+        items:  [
+          "190+ country coverage",
+          "Multi-language support"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Product classification",
+          "Origin determination",
+          "Screening",
+          "Documentation"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud compliance platform",
+          "Real-time regulation feeds",
+          "ERP/TMS integration"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Exporters & importers",
+          "Customs brokers",
+          "Compliance departments"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Export classification for defense goods",
+          "Multi-country origin tracking"
+        ]
+      },
+      {
+        industry:  "🛒 E-commerce",
+        scenarios:  [
+          "Cross-border marketplace compliance",
+          "Automated duty estimation for shoppers"
+        ]
+      },
+      {
+        industry:  "🧪 Chemicals",
+        scenarios:  [
+          "Hazmat classification & documentation",
+          "Chemical export control management"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Regulation Database",
+        description:  "Global HTS, sanctions, FTA rules"
+      },
+      {
+        layer:  "Classification Engine",
+        description:  "AI-assisted code determination"
+      },
+      {
+        layer:  "Screening Service",
+        description:  "Real-time party & entity checks"
+      },
+      {
+        layer:  "Documentation Module",
+        description:  "Certificates, licenses, permits"
+      },
+      {
+        layer:  "Monitoring Dashboard",
+        description:  "Compliance status & alerts"
+      }
+    ]
   },
   {
-    id: 18,
-    name: "Automated Palletization and Sorting Systems",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1600&auto=format&fit=crop",
-    alt: "High-speed palletizing robot",
-    details: "Robotic control software for high-speed warehouse sorting and efficient cargo loading.",
-    about: "Physical handling meets digital intelligence. Our software controls high-speed robotic systems that sort parcels and build stable, space-efficient pallets. It's about moves-per-hour and maximizing every inch of space in a truck or container.",
-    futureScope: "Future sorting systems will be 'Geometry-Agnostic'. Using advanced tactile sensors and computer vision, our software will enable robots to handle any object—regardless of shape or fragility—with human-like dexterity and superhuman speed.",
-    benefits: [
+    id:  18,
+    name:  "Automated Palletization and Sorting Systems",
+    image:  "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1600&auto=format&fit=crop",
+    alt:  "High-speed palletizing robot",
+    details:  "Robotic control software for high-speed warehouse sorting and efficient cargo loading.",
+    about:  "Physical handling meets digital intelligence. Our software controls high-speed robotic systems that sort parcels and build stable, space-efficient pallets. It's about moves-per-hour and maximizing every inch of space in a truck or container.",
+    futureScope:  "Future sorting systems will be 'Geometry-Agnostic'. Using advanced tactile sensors and computer vision, our software will enable robots to handle any object—regardless of shape or fragility—with human-like dexterity and superhuman speed.",
+    benefits:  [
       "Huge increases in warehouse sorting throughput.",
       "Optimized pallet stability, reducing shipping-related damage.",
       "Maximum utilization of trailer and container cubic space.",
       "Reduced reliance on manual labor for high-repetition physical tasks."
     ],
-    integrationNote: "Feeds physical load status updates into the Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Feeds physical load status updates into the Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "🤖 Robotic Control",
+        items:  [
+          "High-speed pick & place",
+          "Multi-SKU mixed palletizing",
+          "Robotic arm coordination"
+        ]
+      },
+      {
+        category:  "📐 Load Optimization",
+        items:  [
+          "3D pallet build simulation",
+          "Weight distribution balancing",
+          "Container space maximization"
+        ]
+      },
+      {
+        category:  "📦 Sorting Systems",
+        items:  [
+          "Barcode/RFID-based sorting",
+          "Destination-based routing",
+          "Exception handling automation"
+        ]
+      },
+      {
+        category:  "📊 Performance Monitoring",
+        items:  [
+          "Throughput dashboards",
+          "Error rate tracking",
+          "Equipment utilization analytics"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Massive increases in throughput",
+          "Near-zero palletizing errors"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced labor dependency",
+          "Maximum space utilization in trucks"
+        ]
+      },
+      {
+        category:  "🛡️ Safety",
+        items:  [
+          "Reduced workplace injuries",
+          "Consistent pallet stability"
+        ]
+      },
+      {
+        category:  "📦 Quality",
+        items:  [
+          "Optimized load stability for transit",
+          "Reduced shipping-related damage"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Pallet build planning",
+          "Robotic execution",
+          "Quality verification",
+          "Load manifesting"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "PLC/robotic controls",
+          "Computer vision",
+          "WMS integration"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Distribution centers",
+          "Manufacturing outbound",
+          "Cross-dock facilities"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🛒 Retail Distribution",
+        scenarios:  [
+          "Mixed-SKU store pallet building",
+          "E-commerce parcel sorting"
+        ]
+      },
+      {
+        industry:  "🍺 Beverage",
+        scenarios:  [
+          "Layer palletizing for bottles/cans",
+          "Full-pallet vs. mixed-pallet optimization"
+        ]
+      },
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "End-of-line palletizing automation",
+          "Multi-format product handling"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Sensor & Vision",
+        description:  "Cameras, scanners, weight sensors"
+      },
+      {
+        layer:  "Planning Engine",
+        description:  "3D pallet configuration optimization"
+      },
+      {
+        layer:  "Robotic Controls",
+        description:  "Arm coordination, pick & place"
+      },
+      {
+        layer:  "WMS Integration",
+        description:  "Order & inventory synchronization"
+      },
+      {
+        layer:  "Monitoring Dashboard",
+        description:  "Throughput, errors, utilization"
+      }
+    ]
   },
   {
-    id: 19,
-    name: "Digital Twin Technology for Supply Chain Simulation",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    alt: "Virtual supply chain model",
-    details: "Virtual models of entire supply chains for 'what-if' analysis and risk-free optimization.",
-    about: "Test the future before it happens. We create a digital replica of your entire supply chain, allowing you to simulate disruptions, test new warehouse locations, or adjust inventory policies in a risk-free virtual environment.",
-    futureScope: "The Digital Twin will become a 'Parallel Reality'. It will run millions of simulations every second, continuously feeding the best possible decisions into the real-world Supply Chain Visibility and Optimization Software.",
-    benefits: [
+    id:  19,
+    name:  "Digital Twin Technology for Supply Chain Simulation",
+    image:  "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
+    alt:  "Virtual supply chain model",
+    details:  "Virtual models of entire supply chains for 'what-if' analysis and risk-free optimization.",
+    about:  "Test the future before it happens. We create a digital replica of your entire supply chain, allowing you to simulate disruptions, test new warehouse locations, or adjust inventory policies in a risk-free virtual environment.",
+    futureScope:  "The Digital Twin will become a 'Parallel Reality'. It will run millions of simulations every second, continuously feeding the best possible decisions into the real-world Supply Chain Visibility and Optimization Software.",
+    benefits:  [
       "Risk-free testing of major supply chain strategy shifts.",
       "Precise identification of future capacity bottlenecks.",
       "Highly accurate ROI predictions for logistics investments.",
       "Improved resilience through 'black swan' event simulation."
     ],
-    integrationNote: "Acts as the simulation and training ground for the Supply Chain Visibility and Optimization Software."
+    integrationNote:  "Acts as the simulation and training ground for the Supply Chain Visibility and Optimization Software.",
+    keyFeatures:  [
+      {
+        category:  "🌐 Virtual Modeling",
+        items:  [
+          "Full supply chain digital replica",
+          "Real-time data synchronization",
+          "3D facility visualization"
+        ]
+      },
+      {
+        category:  "🔮 Simulation Engine",
+        items:  [
+          "What-if scenario testing",
+          "Disruption impact modeling",
+          "Demand variation simulation"
+        ]
+      },
+      {
+        category:  "📊 Optimization Tools",
+        items:  [
+          "Network design optimization",
+          "Inventory policy testing",
+          "Capacity bottleneck identification"
+        ]
+      },
+      {
+        category:  "🤖 AI Integration",
+        items:  [
+          "ML-driven recommendations",
+          "Autonomous optimization loops",
+          "Predictive scenario generation"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Risk-free strategy testing",
+          "Faster decision cycles"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Accurate ROI predictions before investment",
+          "Reduced cost of failed strategies"
+        ]
+      },
+      {
+        category:  "📊 Strategic",
+        items:  [
+          "Data-driven network design",
+          "Proactive bottleneck resolution"
+        ]
+      },
+      {
+        category:  "🛡️ Resilience",
+        items:  [
+          "Black swan event preparedness",
+          "Supply chain stress testing"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Network modeling",
+          "Scenario simulation",
+          "Optimization runs",
+          "Decision support"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Cloud simulation platform",
+          "Real-time data feeds",
+          "3D visualization engine"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Supply chain strategy teams",
+          "Network design consultants",
+          "Executive decision-makers"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "New plant location evaluation",
+          "Production capacity planning"
+        ]
+      },
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Distribution network redesign",
+          "Seasonal surge preparation"
+        ]
+      },
+      {
+        industry:  "🚛 Logistics",
+        scenarios:  [
+          "Hub relocation analysis",
+          "Service level impact modeling"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Integration",
+        description:  "Real-time feeds from ERP, WMS, TMS"
+      },
+      {
+        layer:  "Digital Twin Model",
+        description:  "Virtual supply chain replica"
+      },
+      {
+        layer:  "Simulation Engine",
+        description:  "Scenario creation & execution"
+      },
+      {
+        layer:  "Optimization Module",
+        description:  "AI-driven recommendations"
+      },
+      {
+        layer:  "Visualization Layer",
+        description:  "3D models, dashboards, reports"
+      }
+    ]
   },
   {
-    id: 20,
-    name: "Predictive Analytics for Supply Chain Risk Management",
-    image: "data:image/jpeg;base64,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",
-    alt: "Risk heatmap dashboard",
-    details: "Identifying potential disruptions before they happen using big data and machine learning.",
-    about: "Navigate a volatile world with clarity. Our risk management engine monitors geopolitical events, climatic patterns, and port congestion in real-time. It doesn't just tell you there's a problem; it predicts the impact on your specific shipments and suggests mitigation strategies.",
-    futureScope: "In 2045, risk management will be 'Anti-Fragile'. Your supply chain will automatically get stronger when faced with volatility, autonomously shifting its structure to thrive during global disruptions.",
-    benefits: [
+    id:  20,
+    name:  "Predictive Analytics for Supply Chain Risk Management",
+    image:  "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFhUXFxgWFhcWGBgXGBcYFxgYFxcXFxcYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGyslHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAQIDBQYABwj/xABDEAABAwIDBQUEBwcDAwUAAAABAAIRAyEEEjEFQVFhcQYigZGhEzKx8AdCUmLB0eEUI3KCkrLxFTNDosLSJGNk0+L/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAhEQACAgIDAQEAAwAAAAAAAAAAAQIRAyESMUFREwQiYf/aAAwDAQACEQMRAD8A1ow4nepaoyyBvRfsbmSpYaBAbPMr0nI89RKmkbq8wtCR+BQ2BwfenyVzTZCTJP4PCJGKHFM9kJT3v1S0qalZSjmM3KWANNUsJWtKVsagd9GbqSnSXYiuym0vqvaxo1c4ho8ysbtr6T8JRJbRDqzuI7jPMiT5I7YKRuGsCjxGRozPc1rRq5xDQOpK8O2v9K+OqyKWSi37jczv6nz6ALHbR2hXxBzVqr6h3F7i6Ok6LcQnq/b36SaFNpo4J4qVTY1W3Ywfcdo53MWHWyx/0WbUDcRiC4w+pTgHUgh2YGTvzR6LHChxMojY1d1LEU3DTMAeGU2PxnwRRvD0zbXaBxmlXZrcEaH7zeHTcqV9R0DKZi44g8vyW5q9nm4qllMB4ux3A8DyO9UeH7MPDiyp3XAwR+XEJMi4stifNAOz9sYkw2TA8+S9T2DWLg0E339BqTw/VZvB7FoUQC45jYDeSTYNA3km0BafEYluBwtTEVQAWtzFo/6KYO8kkDqeEJbvSRSS4rbMkNqtdi8VRLp9nWcGm2huWW+ySR4J9V4K8jwu1ntququuXlzn7pc4lxI8Si8H2wxDCcxFRs+6/dyDhfzld0ZxSVnnSxtvR6M9qFrEcQqTB9rKNWz5puP2rt/qH4wrN8ESCCNxFwfFdEWn0yEk12DYmra10HUfwHmrJ2HcGe0IsTlafvb/ACHxCErUyQ06nTxH6EDwT0hbAHuJMCZO4fkrbYmyntd7R7BEWzH1hWuxsKwGGNBt3nuG/wC7ayP2gLQEjluhq0DVqzG3bqhn7SkXBQ9XC5mkuJEcFVMxffyR4k2RUUC2XAxDIJm6oHYx/tmuaM8GwMwSh9r47VtwNLW+CrMFgK7+9SY6L96zW3t77ob6pJa0PFHoeKrFzJHvRoCD8FmMaCfeBCn2bSa1mUva54t+6Bd/U+A0HxUWPZUIOW/PSEataBexlA2gJrqJJQVGpUaQXiRvEgnzN1fbKxdJ4k2gxxlKgiYV4YLjVPOK5IuvTa4S2HDiL/4VZWpkImJziBGir6tW6jrVYQL610rkMonrtKqTuRQceCZRaNyla1QY6JcO8osOKhothEtEqUikRKbEQ2mlpsRACk5FEiMMSwpIXZUtjUeLfTXif/UUmT7rJ6SV5qHX6rR/SZjHP2liA62V+Ro4BoAHnE+Ky7zbmLjwXQTJTQTHCbKdjpCjcFjHUjI56FJlukFndfiP0+CkIWMe+9kMV7TC0aouXME9R3XeoKN7RbYwlP2Qr1Ayo/3LEnKNS4D6snfv8VkvocxuehUoOP8At1A5v8NQaf1Ncf5lj+1uArft1bEYiswAVRTAJ7xaHEMFNh+oAJN983JvnHkzRlx6PWey7MPXrPqsrsrOonK1jNKcj3yD7xIkB2guBeVnPpyx5bRo0QbPfmcOOUGJ5TPooOyvZOs2nSx2GrBtZ7PaQQSXMcZDC6cuUgC2UdZust9Iu33YzEs7gaKVJocHAENe4kuvEwYEDW2iVQp2hpTcuzFlJlRk0pgtd1aYH9LpPjI6LnUW8wNzpzNPIwAW+RPJOKCtYjsBjalI9xxA3jceoTWUQHAPsLSRex3jirOvg2izgMwBYSDAJgGnUHUbt6ZWuhZNdMstn7fFQtpvBBJAEe7JtcHRatuzHMLQ8fWOnQH8F59srBj2jS50EGcoEnjJ3N3a3vovW21GVKTH5TPMyPdg2jjJV45JVs55xiuhtGhDIaLdCCVV41zmanwVjW2vTZ3ZM5RoZ0nd5+SCqjN3nyRHW/MFNG/RWZrF4xxMZo6kAISrVogy+oXH7NJp/vfYeRWkGyKNRji4Q8g5cpjoY0JWNxmFLSYvGpG7qN3wT38AiSvteI9lSptI+s9vtX9ZccoPQBRP2w+pUD6wDwBAbcN6kEmfFAuan0xylJWxzYtqMLRlIGb6o/RKaWUGVR7HLmkOkQfnwV7UxrBqVUnRncc4KPCktIsY6Kxb7KpUMQTwVhXwmRhyjdZLexipp4gtMtJHPRS1Me7eARxbqOo/whaT2k5XC/GUUGjghJhSBcRScefMaIX9mdwK0WFeGjSxU37Wwbo5QD+KnxG5G7bUDYm0qwpC0wsy3ZL9c0q0wJqNgOBIUpxXjGi36i3YiaQUNC4mIRVNc0i6JqYUgCZTUgUyiOhcUqC20ysaLxh8ntCCBnmIIg+7eeCCCfPP0gVm1do4h/eAz5bMb9QBpM59+XVUBNOIObzA/BXvaiQ6KrS2q3K2AABlaMoHEwALm/pFC2nnsAT0ErqaokmNwlSnpD7W1b/4qctYd7h4A+shANw5Y8gkDqQD5a+iMpgb3eQJ+MJUFiV6TSO6+CL95pGn8OZPp0swBa5pB+8B6Og+i4hvM+Q/NQYctDiyHcR3hodfq8UQG9+iqs6njDTcC32tNwEgiX04qCOPda/zVd9MeNB2gWt/4w2f4njOfRzUF2Qx3scbh3gOgVWB0G2QkNeSIuA0k+Cb9IeIpnaGJztLznAGU5CIY1oGeIJEb2u6oPRkes/RrtUO2UHVCf3TajCbTlDiWx0aWjwXi+1MWKlao5s5C85J1y6AniSAL/gAtR2Y27Sp7KxVNuZpc5rAHvbMvF4cGgfV1IAWWNCmIB9ozgSGvBHIgiRzEpkAGAU+HJGl+I1B6hEU9nOdGRzXA88pPRrgHO/lBWw2D2d9hROJq1Gh1WkRh2NMPJcdTmAA92I4OMwiBuiuwmxKlN4FZmQZC8NdctcbBro0nWOAuJCFr0iAS7dzktjcIME313WIWlw+Dq+zbUfDi4mo4kH3nnMRM3At8RxVNtWmGszEyNB47oFhCdIjytlHQxEODgMomYmT4nevSsJjIoDLEls66TqSOs+u4FeZ0KJc6wJk2AE+gWvG0TSY2mYEAj3Tv3yOR9SqQBMhqbAbUbTcXuzOAMgxlmXDqYNunO7dm4mpTzMLy4NJZeToYPMGOeilftZoaGyPdgWdMCPM/kgm7QYC/NmFy6YNtJtqdFRV2S2y+pimWZxZwItvPCCN2unloEFthzXxUy5DcE6T0G+3BQbI2uxrhAAkBpcSG8AbG3mhtqVXNe4VGAXsfdBG4hpMkGxm8go2ZIoq7H1DZwBzEBoZIfBFocRDuWh3XgJ1B0EsqZmuEhwLI05ZlK2sxsd8ZpkRe8zaSCIUOIcatV73VQ97jJLpkmBqYI9VLp3ZYky/ZqNPKS3+6AoK9R4IzA23FRVmEXNhu0InkRr4FMp4tzLTYmQHCQfnjqjyMol52XvUc5xWox1aRzFisNgu8czDlM3bNj/CfHQ36q3O1H5g3KXE2gAzx89UykuhXF2R4qh3w7nf80dh8K9wB0BUtLCOdD6jYHA6+ICsXVBAjRajWBY9mUWVQ6sVb47EgCCR5hUz6jJ1b5hLIKLLBYt7fde4dHEfBXWF2zWH/K/xM/GVk6L3DePL9UbTxDhuHn+itcX2LTRuKHaaoWR3cwF3EHXnEAI1u2apJAqSJiWgAHmJvCwFDFmSADflvsFd4bFlrgCwyHQRYGRYgjwUXjj8G5M3mD2i/e6eoH5K5w1aRdZDB1yCQ4QQYImbgwROivMNjRwXJkh8L45/S8Qe2MSKdF73EQG7zA5DzS08Y3fKD27TZXoPYYNpvxGhUYx/srKt60eB9ru0JxFV00mSCRmPeNvT0WfY97jBJjn+Ss9p4hznEAgNkxlAAPlqgAI0XQ+yaBMdTMtO7RJSddS4hmbeQfRQtpOkWMcTYeZslfYwWEPihEPH1deh1RbKY3ub6n1aCE2rl0k/0j/yTACMdXpOYxtEOacn70kzmfNi2NGxFuKh7VYgV8RUrj/kdnPIuAc71JQ+EDQMpLrW90C276ye6m0gwXa/ZHLTvXWe0ZaA8LUMFu6QT4THxVth6hpyNSdWkS0fxNNi74fAbBYfKM3eDjJbmbEAWzWJvw8+Eyto8HNPjH90IR6MwluR5mcrjrMlp/mN2+MjmFp8FjKr2souhzmtys7xY8tLg8Q6IddsAyZlZduHcLkGOO7z0Wn7MYeoS1wYXU2vbJOgJI0J909OUphJdHpm38G2nTYwCGtaG2teACV5p2hw9sjHh494RpMajnuhewdp8KSwuG6/wH5ryzauEyvBA7okRw+Z9E2N3FEJf1mzNtwzmtIcSBIkaeJbxV3nbVpNJHeb3Ha7h3Tz0PlzRLqXtG94Q4b/AMP0ReF2O72YN8pcCTAzZiDuNgqIzdmbxAh2UyIMHKINjfXep6uFFQBoBkTlLhc7+9fp5hW+P2a1jmBwzAjvX0O8iIS08cxtZpbSBb9YAXNtGxIHl+MliWZnZ+EIqZYl0WIFpF+4YiYnvHw4mPtLhnZ6eYNzZBJ6EyXG5JmbklazE4h+YvbThgNsw727WSLrP9qnPJGaILXGBqCItbdc+aDjoeMtmWLW27wnkIgzpdTMwTmmQR5n1Vj/AKEBcvPGzfxJKje4cUvBrspyT6HHEkDutAJEEzbyi/ipNm4SpiHForNYQ1xId7pABNidDyvPLRBPqBQ+2gyPxWk7MkKPaU35M5I3WA18OqKq4iAR7ZwfNntMGRucRu5+FxpDjXy7rHVKzDtGokzz+CnY5dHblYgZsswJtv8ANVj3kpzKgIDSIj3TpH3Ty+HRDveZIg24rOTZkjn1E0PlRVX2UbX2+eKWwl3TrjiEXQqZtLofE0gIe7fq0bjzP5eiShVlzRYCRYafr1K6lIi0aDC4RoHeN+DTEab956eas5bG65kzqTvkxc3m6zz8YGy53HdruRwrNe2RIbNrjNG6SBr0QuzUX+za2UZT4dLK6o4scVkg680py/ZeS4gSN45I2hi3HVsDr+CzVg6NSMahO0G0nU8DXew990U29XT+BnwVT+0IDtLtkUsNlMS5xLeIIaBmA3kZhHVTlBJDxk7PNsQxw7pMuFjF4P2RxPFQzHvGOQufHc31PJJiMXNmiG+p6n8EG96i2WDRjB9UAc9T5nQ9IUFWHGSJPHehy6AmOqIWGicVL2UNStCax/kAhnPlByCkTsrGVo+xewXY7Etog5WAZqj/ALLBw+8TAHjwWTBuI14byvU/oqxraNOtEE5my4b4BmOU+cIxtugS0je7b2TgKFJtL9mwzqkDKX0ab3BosXEvBN4j/Czp7N0MQ8fuGNJ+x+7B5wwgE+CrsPtN9fHvzn3iGidwaLAeXqVvq2LYwUiQGy4MbFu9BPwaVGTlfZ2YoRcdoocJ2Cwwfle17Z0cx7reaXaXYgUmGpRe6qWXLHhpJaNcrmgGQLxeYWvqVhDTxMek38kuLxDmZXfVNjyO4/FaM5L0M8MJKqCNm4gYjCMcDMsymCD3hbUefisltHDkPfmaIOu+/GN11oMHUZhnF4tQquGcbqVQ6P5NdoeBhM2tS9pXFJtNx7pc+qIys0ytJmczgZA4CVfFJJ/4eZ/IxtMzOz9nGo8lgsLwd86/BHii4QCR74jUSI3jiFZ4BnsHOMEyI/VBYhzn1Acpy5u8BEwr8mQSBKmEzVqYIFw6BG6LH8fFVe08IG4lh8L7tdFpKjctU6EiWg3tm1nnHxVJtrCF7muN9cpHCNR57/xRTA0C1nS7SQ23836fE8lne0jCcp7oGV/1Q6Ygb5V8Nmd7ul8RvcCANfsnWFT9qHaWFg7TdOW0x8yqSejQWyDGh05bZRc2F94bp4nw4rPGoDqI5j8v8LWVaMsFjpMmLyLmxWKqtgxJWm+ikESVKLrGJB0I0PRdRwbiRmsFJgKwMMfMTI5Eb+vx0RzqeUxPrxuCOSi2UKfFTILhB4Ip6GxtWXOHAgT4BPceZU/Rh7wNy5/eH3gP6mj8R8Ol4Co8xBkGCgEWrp4hR0iLyN6XFtsHN0J04Eaj1kciOaEDjxSthNUKOdoBdG+ybT2W7c78EzD4gQEdQxoGh1HzquuLiRdgOJwLhOZzjv4j5sicBjXPOWGgeNtyIOMEa8VVtlriWOEk3aR0i46nyQk4+GV+mubhiCQXttabx1Bm+itmbOaf+WP5f1WJftQh2UkRYjX8+uq02C2tRkF7yG/dF53eqdRTRKUmi2GyZP8Auj+k/ms5292G4UfbZg7I0NAAjWo3n94+SsRtdn24TsdtIV2Gg2HuqNc1t4hwGZrzyBaCUs4Ogwns8hq2soSEdtDZ9Si4tqscwjc4fA6HqEE8LjZ2IicUjinkJhasEa02KY9o/Pj1CkSNYSQBqTA6lAI2jAaX75LW9YEu8AfMhaPshtMUmlpFiVS1KJce77osJtI3nxJJ8UwYadeMIxtOwSpqjd13zUbXoFrwHNJGYNc0iJkE3Fty3W1caK2A9q3Vj6dTpfK7yDivEaeFYIMX53VxT21XbTNJryGO94Df8whKHLaKY8vFUz3TZuKbVwpdIs3N0Le9+CZtfbFFmEc+o8AW0jMTIgNG8rxSj2jxLRAq24Q2Optc9ULjMfUquzVXlx3TuHAAWA6ILF9Hf8jWket9lu1dKvNJ4s6Wlrt7TYAxy8lYO2+7Z1X2NcZsPUJfRqMADgLZgRvLZE+BHAeGUNoGnUa4EiDNtV6PtTb1TGYOlFNj6dNwc6o0kvBALSHNI7gg630Gifhv/CM5qS32epYDGUsQ2ab21QdMpAdH3mmIQjtlwSHyW7i1hJ8QJg/kvM24B+VtWiQ5hIE+6WHSDwWow2zNoBjprVWOFmjPnB5xPupuLXTOdqL8NRWwIc4OyEjcCI/qVXt3aGHowXvl/wBlkEjlOgWO7QNxlMTWrOILZLc5MOJjLBPkVmsTSOUOdv8AdG88+iKTF4ouMZ2pc0uOQwXd1rRZoO/7xVRtfantAAKbgAHCTeS6JcTHL1QztlujM+Gjnb56aqoqtaD3SSOJ3+CdykFRj4aqp2hbENpuuL6RMajhdZ9zgXOaRqAR4CLKpqHX54ojZWGdVMOq5MuhPezTuibdVuTk6DxSVk+HpkOk7vVWIr5mm12/2k/gT/1HgrKn2XqPEsq0XCJsXg/0lshVG1MPUwxBc3MNCWmWwbOE7pBI8VmmZNFVtB98wm5Hj14yiIJEwk2tgalN2SqC11iN0tMZXdCIMJ1BmVsEqfo/hGQfkqMsPLzRRCTIsYFDdQYAO/gRMO8PgSg3ggwRcWPUao/EtsUXs3YzcQzO7EU6ZByEOIk5QId5ED+VK0GySi+w6Kdr0BTcYCka48VSxaDfaIc1gMxO79EwOPFB4o91++35INmoNrbQ9o97jlE7gAAB0RdLGuB0kbvmFmZcwxmHAxBG7erOni3cfRdOPKTljL1u0XfYPr+SXFbSyNDy29xExqCPz81TDFu+16BWuwGGtVyuyuGUmHgRYi+mt1V5E1RPhWyKr2zreybSacrW34k8iTun4od+0KVcl1ShTaZIORoYLmfqxpPlC2bdifco/wBP/wCU+r2fLmOZ+6APAacDYC6hw+j8/hi8TsOgWNc2bgkw6RqYieizGOpBpMTbitdtB4psyzO4HiGiAfGJ8Vj8a6Z6qGSl0XjYGXFWOBFH2VVz3uFYQKTQJaQ6zy47u7I8VXJzVJDhlF6eSMrrGZ7pBsLuzZhvmRB3QeKGpoilp4n4pkAkpCYngAfARPjqlSsTHOumQCWm8AyQHDgZHwIKtcBXwTjFWjVHOnUNuoc0qhe9DHFuaZaYPzuOqzlQUrN1W2dsiRArun/5FNscodTlaPZf+m4Y56T6rSP/AHpHQj2dxyXl2H2oXe+xptq2xWh2fi21mbxcjvRcwCdNdR5pOXtDcE9WegUO02zmF2QgB3vNDzlPgGW8EThe1OEaCGOOV27O8jwGW2u5eZNwgkxHBG02gD8lv0N+KPQMT2owTjNRjXmw7/tHe7pu6+ZUNTtVgM0mhSzbiadQ9IssW+pMGNNB+fFDPcLvrOvujfyAW5th/GKNnj9u7Pqgl+HpuAk2bWEcTYhUFTG7Jmf2bydif/uWYxGMLrN7reA39TvQwOior9Iy4+FvtvHYEsLcPhMrz/yF9bu33NdVcCd1xvTdiYF5wtWrSI9rnAYHBpaQ2CdQftG2llQ1TdbXsqwfsrCd7nf3kfgmxq5Cz0gbZRxbvfayJglhyFvMBsCR0V1V2dVquptFQSXZXZ2Dvg2u4Egm86XOpUgptPuktJ8usLHYHtpiQ+CGa2hrrRP3pJ0VnJQ0TSctl3tHslUqP7rngiIz5HCAPdu6QPgk9gBYtHdEO7omRbzss9tCpVyU6hqF+ZpfmcXkghxa5rpMSCL8nhRbMx5h1wTx6cFLnFPofi6NJSFM6Nb5foon02fZb5Kjr4h9yI4ngdfJB0ttPbrBHr5rOcTKDLrHUQBoBYnRZ55ujsZtMuaNOV9xsq5+uqlNp9FIpoPZWT211PTwCLpbKJRUWK5IBFZRZrlX1HY/FF09lMGqf85CuaMTiqWU6GCPXyThV6+RW8/02kRBpyOf6KGvgGsIysaAeO6E8cT+meQyFEuOjXHoCtJ2Xo1WVc7mOa3KRJtqRu13I2k4jl0CKZVdOp8laOOvSUsll1SxBS43HOYyZ17oHXU+AkqtpveVV9ocYRb7I9T+iM2krBBWzObbxcz1gLO1XSFYYqsSq5y4JOzsRGAngLgFJCUIrdJUuHPdHRQVDAKVj7DkAiYLDlA56aKiiqvujZqOqVEK8pz3pjRKRsZItNj4XNmJ3tLW/n880bgq5qsbRYzI9pL2u0mYBa9usHiJ0aTaSm7NbGWdOX5n9UBtWhlquDbAnMDJ3348Z8k7VRQl7L7D4j2dqrXU3bw4a9CLHwR1Ctm9xr38msc74BZrDbZxTBDMQ8DcJn0crKl2oxgHexLuGjJ+E+SRQQ/6Ms9s4sUG+zP++QC8TPsW6gOj/ldw+qNbkRnjipuSSeJkok7Qw4o1GgPNWo0hz3EEGTJsRPOZmb8kVtHb9Gphm0adNue2epka0mwabgkm1otEDeJDql0Tbb7K1tccU4VRa/BC1nmo6aj3zoXEk6CB4DghK5cwkFxMc9eYWcwKIfUN/FbTs6+MLTBt7397isNRo06hcQSSBJkhvK06nkFY4HaVeiz2dNrIbLocJsTmn3h9r1T4507BONqjbh8XsIvv3LP1tiYWofaUS5pJJAa+WTOkFpdE/eVdiO0uInK0UwRqcgDfAGT6ojY3aEPeadVrRUM5HMs1xAnIQTYncRvseKo5wk6YijJKy7wuwi6mKRqiAXOAc0FoLom+sGBMzoFBhuzTGiXPng1ggabybkeS7C7SL6rAy1naw4boJgtsrCmTAdUN+GgBG7L14kqsccX4TcpIwVHGZxBadL8FEWsLjbdpuWzb2bc24ymdRP5oN3Z94qTl1O69uFlB4JFVliZZoItEjcUjqRN1rauxCNyGdso8PRI8TG/RFzTcNylzhBscpm9V02RoLa8J7aqEYFO0BGwBLa/BQbQdIB5pzQodoOlo5FFPYGQh/GVPSq8IQIcFLTqcPgqWLRd4B5LtFmfpAxffa36wGvL5J8loMCSG97XUysF2lr567uUDz7x+K588tFcS2VZqmL3UWYJ8JFynSI0JZSJCVjCVjZIwi8zyj8U2oUiAR8qOobLikKBiEqWiYXQlAQCWOHr8StbsrsgcbR9q2q1haSwBwJzRBuR7vvcDqshgqQsV6n9HVX91VbOjwf6mx/2q8N9kp66MhjOwOLZowPHGm4H0MH0VJidkVKZh7HNPBzS34he7B/OUj4IgwRwIkeRTfmifNnz/AFMEoG4VzSY+bg/gvc8V2bwtT3qLWnizu/2wFTYv6P6R/wBuq5vJwDh5iErxDLIeVVHk/VvpKGdRcdTK9BxvYSu33Q14+66D5OhUeL2JVp+/Tc3q0geeiV42MpozTaJGim/anjefn/CsnYVMOG5JeLQeSIsNimitJu2RprAEWneNfBQY7Hg1WVIuwtzGA0vyvLgSBbNECd8BTvw3JV/7E43ylZthVFzgu0FGnUztbUAAIykM3xoRCLpdp6Zc0+yOVplozb76t0OuizzdnO5BdUwpbqnWWYrxwPQqHa2m/wB7MPAfgjae2aLtKg8ZHxC8yYYRNLEFWjnfpJ4V4etYbENe2Za7cYIK40Wn6o8l57suuQCeOngrZm0Hx7x+KosiE4MSm7gpmFCtcdyka/r+iQYMYU8PQpqfP6JW1UbAGtq8lDjqncJ5g/PmmsdzCkLgba8f1RTMVjb70bs+hJDp+O5V73EG53xdXWGf3ReTxmdNdfFM2CgjFPDaZ6R52/FecYqpmc53Ek+ZWz27iYpnmCfSB6kLDPXNley2NaOKauJSKRU4phTiUxAw1wXBOhI3RYIiSE+EuVYxHlUjGJzWqQBagWFYRi9C7AO/3f5P+9ee4Z91vewjjNWODPi5Wx9k59G1LhxSjw5oVxlSNdB1t4q1EQhwPJICfkpoqc/8JCedlqMSkngmFyi9pzHLUJj3Hj0WoFg+M2Zh6nvUmzxAgnxbBVRiuytB3uOc3ycPW/qrkuPz8U01FqNZksT2TcPcc13mD629VXVth1G6sNuUjzC3Lqo+bJHvFkOCDyZ56cByUdTZ06hb+rSY73hPW6Cq4CnxI9fit+aDyPN34Bw1afJT4XZpN3Axw4rYnZLi4kPEcI8PzUVTBuG63n8EPzQ3MpGUospB0Rz6Cj9itxBYMHp7XykXIGJ6Z53Ugd006wuXImHNf+uicCP8D4lIuRQAXG0L5m3BtbXh4fojMI4QGjcIiR86rlyZbAVvaOt3CLXgNA65j8Asu5cuXLPs6IrRGV0rlyUYQpFy5YwsJGhcuQMPATg1KuRALlTguXImCaTQVsexNWKj/wCD4OH5rlypj7Qk+mbFz9Lzr86QkNXQ/wCPNcuXSc4gxFtN/wAlKKl+O+x+PzvXLljDHv8ALd+Nkgr9DuSLljCHESOHimGr/n8OC5csYYX7kjn2XLljEL7XUbn9PzXLkDDAZPz8N6ZUfBiOFly5YILiO9vA14HlvQY2c06yfEhcuWMf/9k=",
+    alt:  "Risk heatmap dashboard",
+    details:  "Identifying potential disruptions before they happen using big data and machine learning.",
+    about:  "Navigate a volatile world with clarity. Our risk management engine monitors geopolitical events, climatic patterns, and port congestion in real-time. It doesn't just tell you there's a problem; it predicts the impact on your specific shipments and suggests mitigation strategies.",
+    futureScope:  "In 2045, risk management will be 'Anti-Fragile'. Your supply chain will automatically get stronger when faced with volatility, autonomously shifting its structure to thrive during global disruptions.",
+    benefits:  [
       "Early warning systems for global logistics disruptions.",
       "Automated impact analysis for specific customers and orders.",
       "Dynamic data-driven insurance premium optimization.",
       "Proactive rerouting to avoid high-risk zones and delays."
     ],
-    integrationNote: "The intelligence layer that makes the Supply Chain Visibility and Optimization Software resilient to global volatility."
+    integrationNote:  "The intelligence layer that makes the Supply Chain Visibility and Optimization Software resilient to global volatility.",
+    keyFeatures:  [
+      {
+        category:  "🌍 Global Risk Monitoring",
+        items:  [
+          "Geopolitical event tracking",
+          "Natural disaster monitoring",
+          "Port congestion analysis"
+        ]
+      },
+      {
+        category:  "📈 Predictive Models",
+        items:  [
+          "Disruption probability scoring",
+          "Supply shortage forecasting",
+          "Demand volatility prediction"
+        ]
+      },
+      {
+        category:  "🔔 Early Warning System",
+        items:  [
+          "Real-time risk alerts",
+          "Shipment impact assessment",
+          "Escalation workflows"
+        ]
+      },
+      {
+        category:  "🛡️ Mitigation Planning",
+        items:  [
+          "Alternative route suggestions",
+          "Supplier diversification recommendations",
+          "Inventory buffer optimization"
+        ]
+      }
+    ],
+    detailedBenefits:  [
+      {
+        category:  "⚡ Operational",
+        items:  [
+          "Early disruption detection",
+          "Proactive mitigation actions"
+        ]
+      },
+      {
+        category:  "💰 Financial",
+        items:  [
+          "Reduced disruption-related costs",
+          "Optimized insurance premiums"
+        ]
+      },
+      {
+        category:  "🛡️ Resilience",
+        items:  [
+          "Anti-fragile supply chain design",
+          "Faster recovery from disruptions"
+        ]
+      },
+      {
+        category:  "📊 Strategic",
+        items:  [
+          "Data-driven risk reporting for leadership",
+          "Continuous risk profile improvement"
+        ]
+      }
+    ],
+    scope:  [
+      {
+        category:  "📌 Functional",
+        items:  [
+          "Risk identification",
+          "Impact analysis",
+          "Mitigation planning",
+          "Recovery tracking"
+        ]
+      },
+      {
+        category:  "📌 Technical",
+        items:  [
+          "Big data analytics platform",
+          "NLP for news & social scanning",
+          "ML risk scoring models"
+        ]
+      },
+      {
+        category:  "📌 Business",
+        items:  [
+          "Global supply chain leaders",
+          "Procurement risk managers",
+          "Business continuity teams"
+        ]
+      }
+    ],
+    useCases:  [
+      {
+        industry:  "🏭 Manufacturing",
+        scenarios:  [
+          "Supplier risk monitoring",
+          "Raw material shortage prediction"
+        ]
+      },
+      {
+        industry:  "🛒 Retail",
+        scenarios:  [
+          "Seasonal disruption preparation",
+          "Consumer demand shift detection"
+        ]
+      },
+      {
+        industry:  "🌍 Global Trade",
+        scenarios:  [
+          "Geopolitical trade risk assessment",
+          "Port congestion impact analysis"
+        ]
+      }
+    ],
+    architecture:  [
+      {
+        layer:  "Data Sources",
+        description:  "News, weather, trade, IoT feeds"
+      },
+      {
+        layer:  "NLP & Analytics",
+        description:  "Text mining, event classification"
+      },
+      {
+        layer:  "Risk Scoring Engine",
+        description:  "ML probability & impact models"
+      },
+      {
+        layer:  "Alert & Action Module",
+        description:  "Notifications, recommendations"
+      },
+      {
+        layer:  "Executive Dashboard",
+        description:  "Risk heatmaps, trend reports"
+      }
+    ]
   }
 ];

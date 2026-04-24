@@ -63,6 +63,118 @@ const ProductDetail = ({ product, onBack, products, onSelectProduct }) => {
               </div>
             </div>
 
+            {/* Key Features Section */}
+            {product.keyFeatures && (
+              <section className="detail-section glass-panel">
+                <div className="section-header">
+                  <div className="section-accent-bar"></div>
+                  <h2>Key Features</h2>
+                </div>
+                <div className="features-grid">
+                  {product.keyFeatures.map((feat, i) => (
+                    <div key={i} className="feature-category-card">
+                      <h4>{feat.category}</h4>
+                      <ul>
+                        {feat.items.map((item, j) => (
+                          <li key={j}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Detailed Benefits Section */}
+            {product.detailedBenefits && (
+              <section className="detail-section glass-panel">
+                <div className="section-header">
+                  <div className="section-accent-bar"></div>
+                  <h2>Comprehensive Benefits</h2>
+                </div>
+                <div className="benefits-category-grid">
+                  {product.detailedBenefits.map((group, i) => (
+                    <div key={i} className="benefit-category-card">
+                      <h4>{group.category}</h4>
+                      <ul>
+                        {group.items.map((item, j) => (
+                          <li key={j}><span className="benefit-dot">●</span>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Scope Section */}
+            {product.scope && (
+              <section className="detail-section glass-panel">
+                <div className="section-header">
+                  <div className="section-accent-bar"></div>
+                  <h2>Solution Scope</h2>
+                </div>
+                <div className="scope-grid">
+                  {product.scope.map((s, i) => (
+                    <div key={i} className="scope-card">
+                      <h4>{s.category}</h4>
+                      <ul>
+                        {s.items.map((item, j) => (
+                          <li key={j}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Use Cases Section */}
+            {product.useCases && (
+              <section className="detail-section glass-panel">
+                <div className="section-header">
+                  <div className="section-accent-bar"></div>
+                  <h2>Industry Use Cases</h2>
+                </div>
+                <div className="usecases-grid">
+                  {product.useCases.map((uc, i) => (
+                    <div key={i} className="usecase-card">
+                      <h4>{uc.industry}</h4>
+                      <ul>
+                        {uc.scenarios.map((s, j) => (
+                          <li key={j}>{s}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Architecture Section */}
+            {product.architecture && (
+              <section className="detail-section glass-panel">
+                <div className="section-header">
+                  <div className="section-accent-bar"></div>
+                  <h2>High-Level Architecture</h2>
+                </div>
+                <div className="architecture-layers">
+                  {product.architecture.map((arch, i) => (
+                    <div key={i} className="arch-layer">
+                      <div className="arch-layer-number">{i + 1}</div>
+                      <div className="arch-layer-content">
+                        <h4>{arch.layer}</h4>
+                        <p>{arch.description}</p>
+                      </div>
+                      {i < product.architecture.length - 1 && (
+                        <div className="arch-connector">▼</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Integration Section */}
             <section className="detail-section glass-panel detail-integration">
               <h2>Supply Chain Visibility &amp; Optimization Integration</h2>
